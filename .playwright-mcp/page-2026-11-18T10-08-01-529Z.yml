@@ -1,0 +1,293 @@
+- generic [active] [ref=f38e1]:
+  - navigation [ref=f38e2]:
+    - generic [ref=f38e4]:
+      - link "Trinity Tours & Travel Agency" [ref=f38e5] [cursor=pointer]:
+        - /url: "#home"
+      - generic [ref=f38e6]:
+        - link "Home" [ref=f38e7] [cursor=pointer]:
+          - /url: "#home"
+        - link "About" [ref=f38e8] [cursor=pointer]:
+          - /url: "#about"
+        - link "Tours" [ref=f38e9] [cursor=pointer]:
+          - /url: "#packages"
+        - link "Gallery" [ref=f38e10] [cursor=pointer]:
+          - /url: "#gallery"
+        - link "Contact" [ref=f38e11] [cursor=pointer]:
+          - /url: "#contact"
+        - link "Call Now" [ref=f38e12] [cursor=pointer]:
+          - /url: tel:242-443-8992
+  - generic [ref=f38e13]:
+    - generic [ref=f38e18]:
+      - paragraph [ref=f38e19]: Welcome to
+      - heading "Trinity Tours & Travel Agency" [level=1] [ref=f38e20]
+      - paragraph [ref=f38e21]: Explore the Beauty of Grand Bahama
+      - generic [ref=f38e22]:
+        - link "Explore Tours" [ref=f38e23] [cursor=pointer]:
+          - /url: "#packages"
+        - link "Call Us" [ref=f38e24] [cursor=pointer]:
+          - /url: tel:242-443-8992
+    - generic [ref=f38e25]: Scroll
+  - generic [ref=f38e32]:
+    - generic [ref=f38e33]:
+      - paragraph [ref=f38e34]: Who We Are
+      - heading "About Trinity Tours" [level=2] [ref=f38e35]
+      - paragraph [ref=f38e36]:
+        - generic [ref=f38e37]: Based
+        - generic [ref=f38e38]: in
+        - generic [ref=f38e39]: Freeport,
+        - generic [ref=f38e40]: Grand
+        - generic [ref=f38e41]: Bahama,
+        - generic [ref=f38e42]: Trinity
+        - generic [ref=f38e43]: Tours
+        - generic [ref=f38e44]: "&"
+        - generic [ref=f38e45]: Travel
+        - generic [ref=f38e46]: Agency
+        - generic [ref=f38e47]: offers
+        - generic [ref=f38e48]: premium
+        - generic [ref=f38e49]: taxi
+        - generic [ref=f38e50]: services,
+        - generic [ref=f38e51]: pick-up
+        - generic [ref=f38e52]: and
+        - generic [ref=f38e53]: drop-off,
+        - generic [ref=f38e54]: island
+        - generic [ref=f38e55]: excursions,
+        - generic [ref=f38e56]: and
+        - generic [ref=f38e57]: rental
+        - generic [ref=f38e58]: cars.
+        - generic [ref=f38e59]: Our
+        - generic [ref=f38e60]: experienced
+        - generic [ref=f38e61]: drivers
+        - generic [ref=f38e62]: know
+        - generic [ref=f38e63]: every
+        - generic [ref=f38e64]: corner
+        - generic [ref=f38e65]: of
+        - generic [ref=f38e66]: Grand
+        - generic [ref=f38e67]: Bahama,
+        - generic [ref=f38e68]: from
+        - generic [ref=f38e69]: hidden
+        - generic [ref=f38e70]: beaches
+        - generic [ref=f38e71]: to
+        - generic [ref=f38e72]: cultural
+        - generic [ref=f38e73]: landmarks.
+        - generic [ref=f38e74]: We're
+        - generic [ref=f38e75]: always
+        - generic [ref=f38e76]: open
+        - generic [ref=f38e77]: and
+        - generic [ref=f38e78]: ready
+        - generic [ref=f38e79]: to
+        - generic [ref=f38e80]: show
+        - generic [ref=f38e81]: you
+        - generic [ref=f38e82]: the
+        - generic [ref=f38e83]: beauty
+        - generic [ref=f38e84]: of
+        - generic [ref=f38e85]: our
+        - generic [ref=f38e86]: island.
+      - link "View Our Tours" [ref=f38e87] [cursor=pointer]:
+        - /url: "#packages"
+    - generic [ref=f38e90]:
+      - generic [ref=f38e91]:
+        - generic [ref=f38e92]: 0+
+        - paragraph [ref=f38e93]: Years Experience
+      - generic [ref=f38e94]:
+        - generic [ref=f38e95]: 0+
+        - paragraph [ref=f38e96]: Tours Completed
+      - generic [ref=f38e97]:
+        - generic [ref=f38e98]: 0+
+        - paragraph [ref=f38e99]: Happy Clients
+      - generic [ref=f38e100]:
+        - generic [ref=f38e101]: "4.8"
+        - paragraph [ref=f38e102]: Star Rating
+  - generic [ref=f38e106]:
+    - generic [ref=f38e107]:
+      - paragraph [ref=f38e108]: Our Experiences
+      - heading "Tour Packages" [level=2] [ref=f38e109]
+      - paragraph [ref=f38e110]: Choose from our carefully curated experiences designed to show you the best of the islands
+    - generic [ref=f38e111]:
+      - generic [ref=f38e112]:
+        - generic [ref=f38e113]:
+          - img "Grand Bahama Island Tour" [ref=f38e114]
+          - generic [ref=f38e115]: $150
+        - generic [ref=f38e116]:
+          - generic [ref=f38e117]: 7 Hours
+          - heading "Grand Bahama Island Tour" [level=3] [ref=f38e121]
+          - paragraph [ref=f38e122]: Full-day guided tour covering all the highlights of Grand Bahama Island
+          - generic [ref=f38e123]:
+            - generic [ref=f38e124]: Lucayan National Park
+            - generic [ref=f38e125]: Garden of the Groves
+            - generic [ref=f38e126]: Port Lucaya
+            - generic [ref=f38e127]: Local Cuisine
+          - link "Book Now" [ref=f38e128] [cursor=pointer]:
+            - /url: https://wa.me/2424438992?text=Hi! I'm interested in the Grand Bahama Island Tour tour
+      - generic [ref=f38e129]:
+        - generic [ref=f38e130]:
+          - img "Airport Transfer" [ref=f38e131]
+          - generic [ref=f38e132]: $45
+        - generic [ref=f38e133]:
+          - generic [ref=f38e134]: Transfer
+          - heading "Airport Transfer" [level=3] [ref=f38e138]
+          - paragraph [ref=f38e139]: Comfortable and reliable airport pick-up and drop-off service
+          - generic [ref=f38e140]:
+            - generic [ref=f38e141]: Meet & Greet
+            - generic [ref=f38e142]: Air-Conditioned
+            - generic [ref=f38e143]: Luggage Help
+            - generic [ref=f38e144]: Any Time
+          - link "Book Now" [ref=f38e145] [cursor=pointer]:
+            - /url: https://wa.me/2424438992?text=Hi! I'm interested in the Airport Transfer tour
+      - generic [ref=f38e146]:
+        - generic [ref=f38e147]:
+          - img "Beach Excursion" [ref=f38e148]
+          - generic [ref=f38e149]: $120
+        - generic [ref=f38e150]:
+          - generic [ref=f38e151]: 5 Hours
+          - heading "Beach Excursion" [level=3] [ref=f38e155]
+          - paragraph [ref=f38e156]: Visit the most stunning beaches on Grand Bahama Island
+          - generic [ref=f38e157]:
+            - generic [ref=f38e158]: Gold Rock Beach
+            - generic [ref=f38e159]: Taino Beach
+            - generic [ref=f38e160]: Swimming
+            - generic [ref=f38e161]: Photos
+          - link "Book Now" [ref=f38e162] [cursor=pointer]:
+            - /url: https://wa.me/2424438992?text=Hi! I'm interested in the Beach Excursion tour
+      - generic [ref=f38e163]:
+        - generic [ref=f38e164]:
+          - img "Custom Island Tour" [ref=f38e165]
+          - generic [ref=f38e166]: $180
+        - generic [ref=f38e167]:
+          - generic [ref=f38e168]: Full Day
+          - heading "Custom Island Tour" [level=3] [ref=f38e172]
+          - paragraph [ref=f38e173]: Design your own tour with our experienced local drivers
+          - generic [ref=f38e174]:
+            - generic [ref=f38e175]: Your Itinerary
+            - generic [ref=f38e176]: Local Guide
+            - generic [ref=f38e177]: Flexible Timing
+            - generic [ref=f38e178]: Hidden Gems
+          - link "Book Now" [ref=f38e179] [cursor=pointer]:
+            - /url: https://wa.me/2424438992?text=Hi! I'm interested in the Custom Island Tour tour
+  - generic [ref=f38e181]:
+    - generic [ref=f38e182]:
+      - paragraph [ref=f38e183]: Visual Journey
+      - heading "Gallery" [level=2] [ref=f38e184]
+      - paragraph [ref=f38e185]: A glimpse into the unforgettable experiences that await you
+    - generic [ref=f38e186]:
+      - img "Grand Bahama beach" [ref=f38e188] [cursor=pointer]
+      - img "Lucayan National Park" [ref=f38e195] [cursor=pointer]
+      - img "Port Lucaya Marketplace" [ref=f38e202] [cursor=pointer]
+      - img "Crystal clear Bahamas waters" [ref=f38e209] [cursor=pointer]
+      - img "Garden of the Groves" [ref=f38e216] [cursor=pointer]
+      - img "Freeport harbor sunset" [ref=f38e223] [cursor=pointer]
+  - generic [ref=f38e230]:
+    - generic [ref=f38e231]:
+      - paragraph [ref=f38e232]: Testimonials
+      - heading "What Our Guests Say" [level=2] [ref=f38e233]
+    - generic [ref=f38e234]:
+      - generic [ref=f38e235]:
+        - paragraph [ref=f38e250]: "\"Marc was an incredible tour guide! He showed us parts of the island we never would have found on our own. The whole experience was fantastic.\""
+        - generic [ref=f38e251]:
+          - generic [ref=f38e252]: D
+          - generic [ref=f38e253]:
+            - paragraph [ref=f38e254]: David Williams
+            - paragraph [ref=f38e255]: Miami, USA
+      - generic [ref=f38e256]:
+        - paragraph [ref=f38e271]: "\"Perfect airport transfer service — on time, friendly, and very helpful. We also booked the island tour and loved every minute of it.\""
+        - generic [ref=f38e272]:
+          - generic [ref=f38e273]: E
+          - generic [ref=f38e274]:
+            - paragraph [ref=f38e275]: Emma Thompson
+            - paragraph [ref=f38e276]: Manchester, UK
+      - generic [ref=f38e277]:
+        - paragraph [ref=f38e292]: "\"Trinity Tours made our Grand Bahama trip truly special. The beach excursion was the highlight of our vacation. Highly recommend!\""
+        - generic [ref=f38e293]:
+          - generic [ref=f38e294]: R
+          - generic [ref=f38e295]:
+            - paragraph [ref=f38e296]: Robert Chen
+            - paragraph [ref=f38e297]: Vancouver, Canada
+  - generic [ref=f38e301]:
+    - generic [ref=f38e302]:
+      - paragraph [ref=f38e303]: Why Us
+      - heading "Why Choose Us" [level=2] [ref=f38e304]
+    - generic [ref=f38e305]:
+      - generic [ref=f38e306]:
+        - heading "Always Available" [level=3] [ref=f38e310]
+        - paragraph [ref=f38e311]: Open 24/7 — whenever you need us, we're ready to go
+      - generic [ref=f38e312]:
+        - heading "Licensed & Insured" [level=3] [ref=f38e316]
+        - paragraph [ref=f38e317]: Professional, safe, and fully licensed transportation
+      - generic [ref=f38e318]:
+        - heading "Local Knowledge" [level=3] [ref=f38e322]
+        - paragraph [ref=f38e323]: Born and raised guides who know every hidden gem
+      - generic [ref=f38e324]:
+        - heading "Fair Pricing" [level=3] [ref=f38e328]
+        - paragraph [ref=f38e329]: Transparent rates with no surprise charges
+  - generic [ref=f38e331]:
+    - generic [ref=f38e332]:
+      - paragraph [ref=f38e333]: Get In Touch
+      - heading "Contact Us" [level=2] [ref=f38e334]
+      - paragraph [ref=f38e335]: Ready to book your adventure? Get in touch and let's plan something amazing
+    - generic [ref=f38e336]:
+      - generic [ref=f38e337]:
+        - link [ref=f38e338] [cursor=pointer]:
+          - /url: tel:242-443-8992
+          - generic [ref=f38e342]:
+            - paragraph [ref=f38e343]: Phone
+            - paragraph [ref=f38e344]: 242-443-8992
+        - link [ref=f38e345] [cursor=pointer]:
+          - /url: https://wa.me/2424438992
+          - generic [ref=f38e349]:
+            - paragraph [ref=f38e350]: WhatsApp
+            - paragraph [ref=f38e351]: Message Us
+        - generic [ref=f38e357]:
+          - paragraph [ref=f38e358]: Location
+          - paragraph [ref=f38e359]: Freeport, The Bahamas
+        - link [ref=f38e361] [cursor=pointer]:
+          - /url: https://www.facebook.com/profile.php?id=100069416197690
+      - generic [ref=f38e365]:
+        - generic [ref=f38e366]:
+          - generic [ref=f38e367]: Full Name
+          - textbox "Your name" [ref=f38e368]
+        - generic [ref=f38e369]:
+          - generic [ref=f38e370]: Email
+          - textbox "your@email.com" [ref=f38e371]
+        - generic [ref=f38e372]:
+          - generic [ref=f38e373]: Message
+          - textbox "Tell us about your dream adventure..." [ref=f38e374]
+        - button "Send Message" [ref=f38e375]
+  - contentinfo [ref=f38e376]:
+    - generic [ref=f38e377]:
+      - generic [ref=f38e378]:
+        - generic [ref=f38e379]:
+          - heading "Trinity Tours & Travel Agency" [level=3] [ref=f38e380]
+          - paragraph [ref=f38e381]: Your trusted partner for unforgettable experiences. Let us show you the beauty that awaits.
+        - generic [ref=f38e382]:
+          - heading "Quick Links" [level=4] [ref=f38e383]
+          - list [ref=f38e384]:
+            - listitem [ref=f38e385]:
+              - link "Home" [ref=f38e386] [cursor=pointer]:
+                - /url: "#home"
+            - listitem [ref=f38e387]:
+              - link "About" [ref=f38e388] [cursor=pointer]:
+                - /url: "#about"
+            - listitem [ref=f38e389]:
+              - link "Tours" [ref=f38e390] [cursor=pointer]:
+                - /url: "#packages"
+            - listitem [ref=f38e391]:
+              - link "Gallery" [ref=f38e392] [cursor=pointer]:
+                - /url: "#gallery"
+            - listitem [ref=f38e393]:
+              - link "Contact" [ref=f38e394] [cursor=pointer]:
+                - /url: "#contact"
+        - generic [ref=f38e395]:
+          - heading "Contact" [level=4] [ref=f38e396]
+          - list [ref=f38e397]:
+            - listitem [ref=f38e398]:
+              - link "242-443-8992" [ref=f38e399] [cursor=pointer]:
+                - /url: tel:242-443-8992
+            - listitem [ref=f38e402]: Freeport, The Bahamas
+      - generic [ref=f38e406]:
+        - paragraph [ref=f38e407]: © 2026 Trinity Tours & Travel Agency. All rights reserved.
+        - paragraph [ref=f38e408]: Designed by KCOM
+  - button "Scroll to top" [ref=f38e409]
+  - generic [ref=f38e414]:
+    - button "Menu" [ref=f38e415]
+    - button "Inspect" [ref=f38e421]
+    - button "Audit" [ref=f38e425]
+    - button "Settings" [ref=f38e430]

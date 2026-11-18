@@ -1,0 +1,94 @@
+{
+  "name": "S Jays Adventures",
+  "slug": "s-jays-adventures",
+  "tagline": "Discover the Beauty of the Bahamas",
+  "description": "Experience the ultimate Bahamian adventure with S Jays Adventures. From crystal-clear waters to pristine beaches, we bring you unforgettable island experiences that will last a lifetime.",
+  "type": "tour",
+  "region": "Bahamas",
+  "phone": "242-552-7461",
+  "email": "sjaysadventures@gmail.com",
+  "whatsapp": "2425527461",
+  "address": "Nassau, Bahamas",
+  "facebook": "https://web.facebook.com/p/s_jays_adventures-100063709200271/",
+  "instagram": "",
+  "heroImage": "/images/s-jays-adventures/hero-tropical.jpg",
+  "colors": {
+    "primary": "#0EA5E9",
+    "primaryDark": "#0284C7",
+    "secondary": "#0F172A",
+    "accent": "#F59E0B",
+    "light": "#F0F9FF"
+  },
+  "about": {
+    "title": "About S Jays Adventures",
+    "text": "Born and raised in the beautiful Bahamas, we've spent years exploring every hidden gem these islands have to offer. Our passion is sharing the authentic Bahamian experience with travelers from around the world. Whether you're seeking thrilling water sports, peaceful island hopping, or cultural immersion — we've got you covered.",
+    "experience": "10+",
+    "tours_completed": "500",
+    "happy_clients": "2000",
+    "rating": "4.9"
+  },
+  "packages": [
+    {
+      "name": "Island Explorer",
+      "description": "Full-day island hopping adventure through the stunning Exuma Cays",
+      "price": "$189",
+      "duration": "8 Hours",
+      "highlights": ["Swimming Pigs", "Thunderball Grotto", "Iguana Island", "Snorkeling Reefs"]
+    },
+    {
+      "name": "Ocean Bliss",
+      "description": "Half-day snorkeling and beach experience at the most beautiful spots",
+      "price": "$129",
+      "duration": "5 Hours",
+      "highlights": ["Coral Reefs", "Marine Life", "Private Beach", "Lunch Included"]
+    },
+    {
+      "name": "Sunset Cruise",
+      "description": "Romantic evening cruise with stunning Caribbean sunset views",
+      "price": "$99",
+      "duration": "3 Hours",
+      "highlights": ["Open Bar", "Live Music", "Sunset Views", "Appetizers"]
+    },
+    {
+      "name": "Deep Sea Fishing",
+      "description": "Offshore fishing adventure targeting marlin, tuna, and mahi-mahi",
+      "price": "$249",
+      "duration": "6 Hours",
+      "highlights": ["Pro Equipment", "Expert Guide", "Deep Waters", "Catch & Keep"]
+    }
+  ],
+  "gallery": [
+    { "alt": "Crystal clear Bahamas waters", "image": "/images/s-jays-adventures/gallery-island.jpg" },
+    { "alt": "Swimming with pigs in Exuma", "image": "/images/s-jays-adventures/photo-2.jpg" },
+    { "alt": "Sunset over Nassau harbor", "image": "/images/s-jays-adventures/photo-4.jpg" },
+    { "alt": "Snorkeling in coral reefs" },
+    { "alt": "Beautiful Bahamian beach" },
+    { "alt": "Island hopping adventure" }
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah Mitchell",
+      "location": "New York, USA",
+      "text": "Absolutely incredible experience! The island hopping tour was the highlight of our entire vacation. The crew was amazing and so knowledgeable.",
+      "rating": 5
+    },
+    {
+      "name": "James Cooper",
+      "location": "London, UK",
+      "text": "Best tour company in the Bahamas, hands down. The sunset cruise was magical and the snorkeling spots were pristine. Highly recommend!",
+      "rating": 5
+    },
+    {
+      "name": "Maria Garcia",
+      "location": "Toronto, Canada",
+      "text": "We booked the deep sea fishing trip and it exceeded all expectations. Professional equipment, great guide, and we caught some amazing fish!",
+      "rating": 5
+    }
+  ],
+  "usps": [
+    { "title": "Local Experts", "description": "Born & raised Bahamian guides who know every hidden gem", "icon": "compass" },
+    { "title": "Safety First", "description": "Licensed, insured, and certified for your peace of mind", "icon": "shield" },
+    { "title": "Small Groups", "description": "Intimate experiences with personalized attention", "icon": "users" },
+    { "title": "Best Prices", "description": "Competitive rates with no hidden fees or charges", "icon": "tag" }
+  ]
+}

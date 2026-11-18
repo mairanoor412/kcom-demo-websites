@@ -1,0 +1,117 @@
+---
+interface Package {
+  name: string;
+  description: string;
+  price: string;
+  duration: string;
+  highlights: string[];
+}
+
+interface Props {
+  packages: Package[];
+  primaryColor: string;
+  phone: string;
+}
+
+const { packages, primaryColor, phone } = Astro.props;
+
+const packageImages = [
+  "/images/stock/tours/gallery-1.jpg",
+  "/images/stock/tours/gallery-3.jpg",
+  "/images/stock/tours/gallery-4.jpg",
+  "/images/stock/tours/gallery-5.jpg",
+];
+---
+
+<section id="packages" class="py-24 md:py-32 bg-gray-950 relative overflow-hidden">
+  <!-- Background decoration -->
+  <div
+    class="absolute bottom-0 left-0 w-[600px] h-[600px] rounded-full blur-3xl opacity-10"
+    style={`background: ${primaryColor};`}
+  ></div>
+  <div
+    class="absolute top-0 right-0 w-[400px] h-[400px] rounded-full blur-3xl opacity-8"
+    style={`background: ${primaryColor};`}
+  ></div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Header -->
+    <div class="text-center mb-16">
+      <p
+        class="text-sm uppercase tracking-[0.2em] font-semibold mb-4"
+        style={`color: ${primaryColor};`}
+        data-animate="fade-up"
+      >
+        Our Experiences
+      </p>
+      <h2
+        class="text-4xl md:text-5xl font-bold text-white mb-4"
+        data-animate="fade-up"
+        data-delay="0.1"
+      >
+        Tour Packages
+      </h2>
+      <p
+        class="text-lg text-gray-400 max-w-2xl mx-auto"
+        data-animate="fade-up"
+        data-delay="0.2"
+      >
+        Choose from our carefully curated experiences designed to show you the best of the islands
+      </p>
+    </div>
+
+    <!-- Cards -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6" data-stagger="0.12">
+      {packages.map((pkg, i) => (
+        <div class="group bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 hover:border-gray-600 transition-all duration-500 hover:-translate-y-2 flex flex-col">
+          <!-- Image placeholder -->
+          <div class="h-48 relative overflow-hidden">
+            <img
+              src={packageImages[i % packageImages.length]}
+              alt={pkg.name}
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              loading="lazy"
+            />
+            <!-- Price badge -->
+            <div
+              class="absolute top-4 right-4 px-4 py-1.5 rounded-full text-white text-sm font-bold"
+              style={`background: ${primaryColor};`}
+            >
+              {pkg.price}
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="p-6 flex flex-col flex-1">
+            <div class="flex items-center gap-2 mb-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" style={`color: ${primaryColor};`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span class="text-gray-400 text-sm">{pkg.duration}</span>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">{pkg.name}</h3>
+            <p class="text-gray-400 text-sm mb-4 leading-relaxed">{pkg.description}</p>
+
+            <!-- Highlights -->
+            <div class="flex flex-wrap gap-2 mb-6">
+              {pkg.highlights.map((h) => (
+                <span class="text-xs px-3 py-1 rounded-full bg-gray-800 text-gray-300">
+                  {h}
+                </span>
+              ))}
+            </div>
+
+            <a
+              href={`https://wa.me/${phone}?text=Hi! I'm interested in the ${pkg.name} tour`}
+              target="_blank"
+              class="block w-full text-center py-3 rounded-xl text-white font-semibold text-sm transition-all duration-300 hover:scale-[1.02] mt-auto"
+              style={`background: ${primaryColor};`}
+            >
+              Book Now
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

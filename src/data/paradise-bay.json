@@ -1,0 +1,94 @@
+{
+  "name": "Paradise Bay Bahamas",
+  "slug": "paradise-bay",
+  "tagline": "Your Private Oceanfront Escape",
+  "description": "Boutique oceanfront resort on Exuma with private cottages and villas on a 1.2-mile untouched beach, shielded by natural coral reef. Far from mass tourism.",
+  "type": "tour",
+  "region": "Bahamas",
+  "phone": "242-357-0186",
+  "email": "contact@paradise-bay-bahamas.com",
+  "whatsapp": "2423570186",
+  "address": "Queen Highway, Roker's Point, Exuma, Bahamas",
+  "facebook": "https://www.facebook.com/p/Paradise-Bay-Bahamas-100042807469790/",
+  "instagram": "",
+  "heroImage": "/images/paradise-bay/photo-2.jpg",
+  "colors": {
+    "primary": "#002654",
+    "primaryDark": "#001B3D",
+    "secondary": "#0F172A",
+    "accent": "#CE1126",
+    "light": "#F8FAFC"
+  },
+  "about": {
+    "title": "About Paradise Bay",
+    "text": "Nestled on the pristine shores of Exuma, Paradise Bay Bahamas is a boutique oceanfront resort offering private cottages and villas on a breathtaking 1.2-mile untouched beach, shielded by a natural coral reef. We are far from mass tourism — here you'll find peace, luxury, and the authentic beauty of the Bahamas. From boat excursions to kite-surfing, every moment is crafted for unforgettable memories.",
+    "experience": "15+",
+    "tours_completed": "1200",
+    "happy_clients": "5000",
+    "rating": "4.9"
+  },
+  "packages": [
+    {
+      "name": "Full-Day Boat Excursion",
+      "description": "Explore Exuma's stunning cays, sandbars, and marine life",
+      "price": "$350",
+      "duration": "8 Hours",
+      "highlights": ["Swimming Pigs", "Nurse Sharks", "Sandbar Stops", "Lunch Included"]
+    },
+    {
+      "name": "Half-Day Excursion",
+      "description": "A shorter adventure through the best of Exuma waters",
+      "price": "$200",
+      "duration": "4 Hours",
+      "highlights": ["Snorkeling", "Island Stops", "Drinks", "Marine Life"]
+    },
+    {
+      "name": "Catamaran Cruise",
+      "description": "Sail the crystal-clear Exuma waters on our premium catamaran",
+      "price": "$275",
+      "duration": "6 Hours",
+      "highlights": ["Sailing", "Snorkeling", "Open Bar", "Sunset Option"]
+    },
+    {
+      "name": "Honeymoon Package",
+      "description": "Romantic getaway with private villa, excursions, and dining",
+      "price": "$1,500",
+      "duration": "3 Nights",
+      "highlights": ["Private Villa", "Boat Excursion", "Romantic Dinner", "Spa Treatment"]
+    }
+  ],
+  "gallery": [
+    { "alt": "Paradise Bay beachfront", "image": "/images/paradise-bay/photo-2.jpg" },
+    { "alt": "Private oceanfront cottage", "image": "/images/paradise-bay/photo-3.jpg" },
+    { "alt": "Crystal clear Exuma waters", "image": "/images/paradise-bay/photo-4.jpg" },
+    { "alt": "Catamaran sailing", "image": "/images/paradise-bay/photo-5.jpg" },
+    { "alt": "Sunset at Paradise Bay" },
+    { "alt": "Snorkeling in coral reefs" }
+  ],
+  "testimonials": [
+    {
+      "name": "Victoria & James Hart",
+      "location": "Boston, USA",
+      "text": "Paradise Bay truly lives up to its name. The private beach was stunning, the cottage was luxurious, and the boat excursion to see the swimming pigs was a dream come true.",
+      "rating": 5
+    },
+    {
+      "name": "Sophia Laurent",
+      "location": "Paris, France",
+      "text": "The most peaceful and beautiful resort I've ever visited. Far from the tourist crowds, with crystal-clear water and impeccable service. We'll be back!",
+      "rating": 5
+    },
+    {
+      "name": "Michael & Lisa Chen",
+      "location": "Sydney, Australia",
+      "text": "We booked the honeymoon package and it exceeded every expectation. The private villa, the romantic dinner on the beach — absolutely perfect in every way.",
+      "rating": 5
+    }
+  ],
+  "usps": [
+    { "title": "Private Paradise", "description": "1.2-mile untouched beach with natural coral reef protection", "icon": "compass" },
+    { "title": "Premium Quality", "description": "Boutique resort with personalized luxury service", "icon": "shield" },
+    { "title": "Exclusive Experiences", "description": "Boat excursions, kite-surfing, catamaran cruises & more", "icon": "users" },
+    { "title": "Far From Crowds", "description": "Intimate resort experience away from mass tourism", "icon": "tag" }
+  ]
+}

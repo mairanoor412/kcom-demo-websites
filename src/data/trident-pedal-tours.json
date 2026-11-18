@@ -1,0 +1,94 @@
+{
+  "name": "Trident Pedal Tours",
+  "slug": "trident-pedal-tours",
+  "tagline": "The Ultimate Entertainment Platform",
+  "description": "Scenic cultural tours and celebratory experiences on our customized Luxury Caztek Megacycle in Nassau, Bahamas.",
+  "type": "tour",
+  "region": "Bahamas",
+  "phone": "242-813-5678",
+  "email": "info@tridentpedaltours.com",
+  "whatsapp": "2428135678",
+  "address": "Nassau, The Bahamas",
+  "facebook": "https://www.facebook.com/tridentpedaltours",
+  "instagram": "",
+  "heroImage": "/images/trident-pedal-tours/photo-2.jpg",
+  "colors": {
+    "primary": "#2563EB",
+    "primaryDark": "#1D4ED8",
+    "secondary": "#0F172A",
+    "accent": "#10B981",
+    "light": "#EFF6FF"
+  },
+  "about": {
+    "title": "About Trident Pedal Tours",
+    "text": "Trident Pedal Tours provides scenic cultural tours and celebratory experiences aboard our customized Luxury Caztek Megacycle. Explore the vibrant streets of Nassau with our knowledgeable tour guides while enjoying the ultimate entertainment platform on wheels. Perfect for parties, celebrations, corporate events, and sightseeing.",
+    "experience": "5+",
+    "tours_completed": "800",
+    "happy_clients": "3000",
+    "rating": "4.9"
+  },
+  "packages": [
+    {
+      "name": "Bahama Life Tour",
+      "description": "Experience local and historical attractions with a knowledgeable tour guide",
+      "price": "$75",
+      "duration": "2 Hours",
+      "highlights": ["Historical Sites", "Cultural Stops", "Photo Ops", "Live Commentary"]
+    },
+    {
+      "name": "Party Pedal",
+      "description": "The ultimate celebration experience on our Luxury Caztek Megacycle",
+      "price": "$120",
+      "duration": "3 Hours",
+      "highlights": ["DJ & Music", "LED Lights", "Drinks Included", "Up to 16 Riders"]
+    },
+    {
+      "name": "Sunset Cruise Pedal",
+      "description": "Pedal through Nassau as the sun sets over the Caribbean",
+      "price": "$85",
+      "duration": "2 Hours",
+      "highlights": ["Sunset Views", "Waterfront Route", "Drinks", "Photos"]
+    },
+    {
+      "name": "Private Event",
+      "description": "Book the entire Megacycle for your special occasion",
+      "price": "$350",
+      "duration": "4 Hours",
+      "highlights": ["Exclusive Booking", "Custom Route", "Full Bar", "DJ Included"]
+    }
+  ],
+  "gallery": [
+    { "alt": "Caztek Megacycle on Nassau streets", "image": "/images/trident-pedal-tours/photo-2.jpg" },
+    { "alt": "Party pedal tour at night", "image": "/images/trident-pedal-tours/photo-3.jpg" },
+    { "alt": "Group enjoying cultural tour", "image": "/images/trident-pedal-tours/photo-4.jpg" },
+    { "alt": "Nassau waterfront pedal tour", "image": "/images/trident-pedal-tours/photo-5.jpg" },
+    { "alt": "Celebration on the Megacycle", "image": "/images/trident-pedal-tours/photo-6.jpg" },
+    { "alt": "Historical Nassau landmarks" }
+  ],
+  "testimonials": [
+    {
+      "name": "Ashley Brown",
+      "location": "Atlanta, USA",
+      "text": "This was the most unique tour experience we've ever had! The Megacycle was so much fun and our guide was incredibly knowledgeable about Nassau's history.",
+      "rating": 5
+    },
+    {
+      "name": "Chris & Jessica Adams",
+      "location": "Houston, USA",
+      "text": "We booked the party pedal for my wife's birthday and it was absolutely epic. Music, drinks, and the best views of Nassau. Can't recommend enough!",
+      "rating": 5
+    },
+    {
+      "name": "Patricia Moore",
+      "location": "Nassau, Bahamas",
+      "text": "Even as a local, Trident showed me parts of Nassau I'd never explored. The cultural tour is a must-do for everyone — tourists and locals alike!",
+      "rating": 5
+    }
+  ],
+  "usps": [
+    { "title": "Unique Experience", "description": "The only Luxury Caztek Megacycle tour in the Bahamas", "icon": "compass" },
+    { "title": "Safe & Fun", "description": "Professional guides ensure everyone has a blast safely", "icon": "shield" },
+    { "title": "Group Friendly", "description": "Perfect for parties, celebrations, and corporate events", "icon": "users" },
+    { "title": "All-Inclusive", "description": "Drinks, music, and entertainment included in every tour", "icon": "tag" }
+  ]
+}

@@ -1,0 +1,92 @@
+---
+interface GalleryItem {
+  alt: string;
+  image?: string;
+}
+
+interface Props {
+  gallery: GalleryItem[];
+  primaryColor: string;
+  name: string;
+}
+
+const { gallery, primaryColor, name } = Astro.props;
+
+const stockImages = [
+  "/images/stock/tours/gallery-1.jpg",
+  "/images/stock/tours/gallery-2.jpg",
+  "/images/stock/tours/gallery-3.jpg",
+  "/images/stock/tours/gallery-4.jpg",
+  "/images/stock/tours/gallery-5.jpg",
+  "/images/stock/tours/gallery-6.jpg",
+];
+---
+
+<section
+  id="gallery"
+  class="py-24 md:py-32 relative overflow-hidden"
+  style={`background: linear-gradient(180deg, white 0%, ${primaryColor}06 50%, white 100%);`}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Header -->
+    <div class="text-center mb-16">
+      <p
+        class="text-sm uppercase tracking-[0.2em] font-semibold mb-4"
+        style={`color: ${primaryColor};`}
+        data-animate="fade-up"
+      >
+        Visual Journey
+      </p>
+      <h2
+        class="text-4xl md:text-5xl font-bold text-gray-900 mb-4"
+        data-animate="fade-up"
+        data-delay="0.1"
+      >
+        Gallery
+      </h2>
+      <p
+        class="text-lg text-gray-500 max-w-2xl mx-auto"
+        data-animate="fade-up"
+        data-delay="0.2"
+      >
+        A glimpse into the unforgettable experiences that await you
+      </p>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4" data-stagger="0.1">
+      {gallery.map((item, i) => (
+        <div
+          class:list={[
+            "relative overflow-hidden rounded-2xl group cursor-pointer",
+            i === 0 ? "md:col-span-2 md:row-span-2" : "",
+          ]}
+        >
+          <img
+            src={item.image || stockImages[i % stockImages.length]}
+            alt={item.alt}
+            class:list={[
+              "w-full object-cover",
+              i === 0 ? "h-64 md:h-full min-h-[300px] md:min-h-[500px]" : "h-48 md:h-64",
+            ]}
+            loading="lazy"
+          />
+
+          <!-- Hover overlay -->
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-500 flex items-center justify-center">
+            <div class="opacity-0 group-hover:opacity-100 transform scale-50 group-hover:scale-100 transition-all duration-500">
+              <div
+                class="w-14 h-14 rounded-full flex items-center justify-center"
+                style={`background: ${primaryColor};`}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

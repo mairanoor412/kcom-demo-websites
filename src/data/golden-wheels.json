@@ -1,0 +1,108 @@
+{
+  "name": "Golden Wheels Limited",
+  "slug": "golden-wheels",
+  "tagline": "Quality Imported Vehicles Since Day One",
+  "description": "Experienced used car dealer importing quality vehicles from Japan, England, Canada and USA. Located at 76A Hagley Park Road, Kingston 10.",
+  "type": "car-dealer",
+  "region": "Jamaica",
+  "phone": "876-849-4908",
+  "phone2": "876-854-0067",
+  "email": "goldenwheels46@gmail.com",
+  "whatsapp": "8768494908",
+  "address": "76A Hagley Park Road, Kingston 10, Jamaica",
+  "contactPerson": "Merlene Smiley",
+  "facebook": "https://www.facebook.com/p/Golden-Wheels-Limited-JA-100045427723663/",
+  "instagram": "",
+  "heroImage": "/images/golden-wheels/photo-2.jpg",
+  "colors": {
+    "primary": "#D97706",
+    "primaryDark": "#B45309",
+    "secondary": "#1A1A2E",
+    "accent": "#15803D",
+    "light": "#FFF7ED"
+  },
+  "about": {
+    "title": "About Golden Wheels",
+    "text": "Golden Wheels Limited is an experienced used car dealer on Hagley Park Road, Kingston, importing quality vehicles from Japan, England, Canada, and the USA — all suitable for the Jamaican market. We offer special orders and extensive after-sale service. Get the premium purchasing experience with us! Call 876-849-4908 anytime except Saturdays.",
+    "experience": "12+",
+    "vehicles_sold": "1000",
+    "happy_clients": "900",
+    "rating": "4.8"
+  },
+  "featuredVehicles": [
+    {
+      "name": "Subaru WRX",
+      "year": "2019",
+      "price": "Call for Price",
+      "type": "Sedan",
+      "highlights": ["Turbo Boxer", "AWD", "Sport Suspension", "268 HP"]
+    },
+    {
+      "name": "Toyota Mark X",
+      "year": "2018",
+      "price": "Call for Price",
+      "type": "Sedan",
+      "highlights": ["V6 Engine", "RWD", "Premium Interior", "Executive Style"]
+    },
+    {
+      "name": "Honda Accord",
+      "year": "2020",
+      "price": "Call for Price",
+      "type": "Sedan",
+      "highlights": ["Turbo", "Honda Sensing", "Apple CarPlay", "Fuel Efficient"]
+    },
+    {
+      "name": "Nissan X-Trail",
+      "year": "2019",
+      "price": "Call for Price",
+      "type": "SUV",
+      "highlights": ["7 Seater", "4WD Available", "ProPilot", "Spacious"]
+    },
+    {
+      "name": "Toyota Prado",
+      "year": "2017",
+      "price": "Call for Price",
+      "type": "SUV",
+      "highlights": ["Diesel V6", "4WD", "7 Seater", "Off-Road Ready"]
+    },
+    {
+      "name": "BMW 3 Series",
+      "year": "2018",
+      "price": "Call for Price",
+      "type": "Sedan",
+      "highlights": ["Turbo", "Sport Package", "Leather Interior", "iDrive"]
+    }
+  ],
+  "services": [
+    { "title": "Global Imports", "description": "Quality vehicles sourced from Japan, England, Canada, and USA", "icon": "truck" },
+    { "title": "Special Orders", "description": "Tell us what you want and we'll find it for you worldwide", "icon": "clipboard" },
+    { "title": "Extensive Service", "description": "Full after-sale service to keep your vehicle running perfectly", "icon": "dollar" },
+    { "title": "Expert Advice", "description": "Experienced team to help you choose the right vehicle", "icon": "headset" }
+  ],
+  "testimonials": [
+    {
+      "name": "Christopher Morgan",
+      "location": "Kingston, Jamaica",
+      "text": "Golden Wheels is the real deal. Bought my Subaru WRX and it was in perfect condition — exactly as described. Merlene and the team are honest and professional.",
+      "rating": 5
+    },
+    {
+      "name": "Sandra Bailey",
+      "location": "Half Way Tree, Jamaica",
+      "text": "I've been buying from Golden Wheels for years. Their imports from Japan are always top quality. Just got a beautiful Toyota Prado and I'm thrilled!",
+      "rating": 5
+    },
+    {
+      "name": "Michael Grant",
+      "location": "Portmore, Jamaica",
+      "text": "Put in a special order for a Honda Accord and Golden Wheels delivered exactly what I wanted. Great communication throughout the process. Highly recommend!",
+      "rating": 5
+    }
+  ],
+  "usps": [
+    { "title": "Global Sourcing", "description": "Vehicles from Japan, England, Canada & USA — the best markets", "icon": "truck" },
+    { "title": "Proven Track Record", "description": "12+ years of trusted service on Hagley Park Road", "icon": "shield" },
+    { "title": "Special Orders", "description": "Can't find it on the lot? We'll import it just for you", "icon": "clipboard" },
+    { "title": "Full Support", "description": "Extensive after-sale service and ongoing support", "icon": "headset" }
+  ]
+}

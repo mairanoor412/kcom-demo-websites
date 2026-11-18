@@ -1,0 +1,288 @@
+- generic [active] [ref=f46e1]:
+  - navigation [ref=f46e2]:
+    - generic [ref=f46e4]:
+      - link "S Jays Adventures" [ref=f46e5] [cursor=pointer]:
+        - /url: "#home"
+      - generic [ref=f46e6]:
+        - link "Home" [ref=f46e7] [cursor=pointer]:
+          - /url: "#home"
+        - link "About" [ref=f46e8] [cursor=pointer]:
+          - /url: "#about"
+        - link "Tours" [ref=f46e9] [cursor=pointer]:
+          - /url: "#packages"
+        - link "Gallery" [ref=f46e10] [cursor=pointer]:
+          - /url: "#gallery"
+        - link "Contact" [ref=f46e11] [cursor=pointer]:
+          - /url: "#contact"
+        - link "Call Now" [ref=f46e12] [cursor=pointer]:
+          - /url: tel:242-552-7461
+  - generic [ref=f46e13]:
+    - generic [ref=f46e19]:
+      - paragraph [ref=f46e20]: Welcome to
+      - heading "S Jays Adventures" [level=1] [ref=f46e21]
+      - paragraph [ref=f46e22]: Discover the Beauty of the Bahamas
+      - generic [ref=f46e23]:
+        - link "Explore Tours" [ref=f46e24] [cursor=pointer]:
+          - /url: "#packages"
+        - link "Call Us" [ref=f46e25] [cursor=pointer]:
+          - /url: tel:242-552-7461
+    - generic [ref=f46e26]: Scroll
+  - generic [ref=f46e33]:
+    - generic [ref=f46e34]:
+      - paragraph [ref=f46e35]: Who We Are
+      - heading "About S Jays Adventures" [level=2] [ref=f46e36]
+      - paragraph [ref=f46e37]:
+        - generic [ref=f46e38]: Born
+        - generic [ref=f46e39]: and
+        - generic [ref=f46e40]: raised
+        - generic [ref=f46e41]: in
+        - generic [ref=f46e42]: the
+        - generic [ref=f46e43]: beautiful
+        - generic [ref=f46e44]: Bahamas,
+        - generic [ref=f46e45]: we've
+        - generic [ref=f46e46]: spent
+        - generic [ref=f46e47]: years
+        - generic [ref=f46e48]: exploring
+        - generic [ref=f46e49]: every
+        - generic [ref=f46e50]: hidden
+        - generic [ref=f46e51]: gem
+        - generic [ref=f46e52]: these
+        - generic [ref=f46e53]: islands
+        - generic [ref=f46e54]: have
+        - generic [ref=f46e55]: to
+        - generic [ref=f46e56]: offer.
+        - generic [ref=f46e57]: Our
+        - generic [ref=f46e58]: passion
+        - generic [ref=f46e59]: is
+        - generic [ref=f46e60]: sharing
+        - generic [ref=f46e61]: the
+        - generic [ref=f46e62]: authentic
+        - generic [ref=f46e63]: Bahamian
+        - generic [ref=f46e64]: experience
+        - generic [ref=f46e65]: with
+        - generic [ref=f46e66]: travelers
+        - generic [ref=f46e67]: from
+        - generic [ref=f46e68]: around
+        - generic [ref=f46e69]: the
+        - generic [ref=f46e70]: world.
+        - generic [ref=f46e71]: Whether
+        - generic [ref=f46e72]: you're
+        - generic [ref=f46e73]: seeking
+        - generic [ref=f46e74]: thrilling
+        - generic [ref=f46e75]: water
+        - generic [ref=f46e76]: sports,
+        - generic [ref=f46e77]: peaceful
+        - generic [ref=f46e78]: island
+        - generic [ref=f46e79]: hopping,
+        - generic [ref=f46e80]: or
+        - generic [ref=f46e81]: cultural
+        - generic [ref=f46e82]: immersion
+        - generic [ref=f46e83]: —
+        - generic [ref=f46e84]: we've
+        - generic [ref=f46e85]: got
+        - generic [ref=f46e86]: you
+        - generic [ref=f46e87]: covered.
+      - link "View Our Tours" [ref=f46e88] [cursor=pointer]:
+        - /url: "#packages"
+    - generic [ref=f46e91]:
+      - generic [ref=f46e92]:
+        - generic [ref=f46e93]: 0+
+        - paragraph [ref=f46e94]: Years Experience
+      - generic [ref=f46e95]:
+        - generic [ref=f46e96]: 0+
+        - paragraph [ref=f46e97]: Tours Completed
+      - generic [ref=f46e98]:
+        - generic [ref=f46e99]: 0+
+        - paragraph [ref=f46e100]: Happy Clients
+      - generic [ref=f46e101]:
+        - generic [ref=f46e102]: "4.9"
+        - paragraph [ref=f46e103]: Star Rating
+  - generic [ref=f46e106]:
+    - generic [ref=f46e107]:
+      - paragraph [ref=f46e108]: Our Experiences
+      - heading "Tour Packages" [level=2] [ref=f46e109]
+      - paragraph [ref=f46e110]: Choose from our carefully curated experiences designed to show you the best of the islands
+    - generic [ref=f46e111]:
+      - generic [ref=f46e112]:
+        - generic [ref=f46e113]: $189
+        - generic [ref=f46e119]:
+          - generic [ref=f46e120]: 8 Hours
+          - heading "Island Explorer" [level=3] [ref=f46e124]
+          - paragraph [ref=f46e125]: Full-day island hopping adventure through the stunning Exuma Cays
+          - generic [ref=f46e126]:
+            - generic [ref=f46e127]: Swimming Pigs
+            - generic [ref=f46e128]: Thunderball Grotto
+            - generic [ref=f46e129]: Iguana Island
+            - generic [ref=f46e130]: Snorkeling Reefs
+          - link "Book Now" [ref=f46e131] [cursor=pointer]:
+            - /url: https://wa.me/2425527461?text=Hi! I'm interested in the Island Explorer tour
+      - generic [ref=f46e132]:
+        - generic [ref=f46e133]: $129
+        - generic [ref=f46e139]:
+          - generic [ref=f46e140]: 5 Hours
+          - heading "Ocean Bliss" [level=3] [ref=f46e144]
+          - paragraph [ref=f46e145]: Half-day snorkeling and beach experience at the most beautiful spots
+          - generic [ref=f46e146]:
+            - generic [ref=f46e147]: Coral Reefs
+            - generic [ref=f46e148]: Marine Life
+            - generic [ref=f46e149]: Private Beach
+            - generic [ref=f46e150]: Lunch Included
+          - link "Book Now" [ref=f46e151] [cursor=pointer]:
+            - /url: https://wa.me/2425527461?text=Hi! I'm interested in the Ocean Bliss tour
+      - generic [ref=f46e152]:
+        - generic [ref=f46e153]: $99
+        - generic [ref=f46e159]:
+          - generic [ref=f46e160]: 3 Hours
+          - heading "Sunset Cruise" [level=3] [ref=f46e164]
+          - paragraph [ref=f46e165]: Romantic evening cruise with stunning Caribbean sunset views
+          - generic [ref=f46e166]:
+            - generic [ref=f46e167]: Open Bar
+            - generic [ref=f46e168]: Live Music
+            - generic [ref=f46e169]: Sunset Views
+            - generic [ref=f46e170]: Appetizers
+          - link "Book Now" [ref=f46e171] [cursor=pointer]:
+            - /url: https://wa.me/2425527461?text=Hi! I'm interested in the Sunset Cruise tour
+      - generic [ref=f46e172]:
+        - generic [ref=f46e173]: $249
+        - generic [ref=f46e179]:
+          - generic [ref=f46e180]: 6 Hours
+          - heading "Deep Sea Fishing" [level=3] [ref=f46e184]
+          - paragraph [ref=f46e185]: Offshore fishing adventure targeting marlin, tuna, and mahi-mahi
+          - generic [ref=f46e186]:
+            - generic [ref=f46e187]: Pro Equipment
+            - generic [ref=f46e188]: Expert Guide
+            - generic [ref=f46e189]: Deep Waters
+            - generic [ref=f46e190]: Catch & Keep
+          - link "Book Now" [ref=f46e191] [cursor=pointer]:
+            - /url: https://wa.me/2425527461?text=Hi! I'm interested in the Deep Sea Fishing tour
+  - generic [ref=f46e193]:
+    - generic [ref=f46e194]:
+      - paragraph [ref=f46e195]: Visual Journey
+      - heading "Gallery" [level=2] [ref=f46e196]
+      - paragraph [ref=f46e197]: A glimpse into the unforgettable experiences that await you
+    - generic [ref=f46e198]:
+      - paragraph [ref=f46e204] [cursor=pointer]: Crystal clear Bahamas waters
+      - paragraph [ref=f46e215] [cursor=pointer]: Swimming with pigs in Exuma
+      - paragraph [ref=f46e226] [cursor=pointer]: Sunset over Nassau harbor
+      - paragraph [ref=f46e237] [cursor=pointer]: Snorkeling in coral reefs
+      - paragraph [ref=f46e248] [cursor=pointer]: Beautiful Bahamian beach
+      - paragraph [ref=f46e259] [cursor=pointer]: Island hopping adventure
+  - generic [ref=f46e266]:
+    - generic [ref=f46e267]:
+      - paragraph [ref=f46e268]: Testimonials
+      - heading "What Our Guests Say" [level=2] [ref=f46e269]
+    - generic [ref=f46e270]:
+      - generic [ref=f46e271]:
+        - paragraph [ref=f46e286]: "\"Absolutely incredible experience! The island hopping tour was the highlight of our entire vacation. The crew was amazing and so knowledgeable.\""
+        - generic [ref=f46e287]:
+          - generic [ref=f46e288]: S
+          - generic [ref=f46e289]:
+            - paragraph [ref=f46e290]: Sarah Mitchell
+            - paragraph [ref=f46e291]: New York, USA
+      - generic [ref=f46e292]:
+        - paragraph [ref=f46e307]: "\"Best tour company in the Bahamas, hands down. The sunset cruise was magical and the snorkeling spots were pristine. Highly recommend!\""
+        - generic [ref=f46e308]:
+          - generic [ref=f46e309]: J
+          - generic [ref=f46e310]:
+            - paragraph [ref=f46e311]: James Cooper
+            - paragraph [ref=f46e312]: London, UK
+      - generic [ref=f46e313]:
+        - paragraph [ref=f46e328]: "\"We booked the deep sea fishing trip and it exceeded all expectations. Professional equipment, great guide, and we caught some amazing fish!\""
+        - generic [ref=f46e329]:
+          - generic [ref=f46e330]: M
+          - generic [ref=f46e331]:
+            - paragraph [ref=f46e332]: Maria Garcia
+            - paragraph [ref=f46e333]: Toronto, Canada
+  - generic [ref=f46e336]:
+    - generic [ref=f46e337]:
+      - paragraph [ref=f46e338]: Why Us
+      - heading "Why Choose Us" [level=2] [ref=f46e339]
+    - generic [ref=f46e340]:
+      - generic [ref=f46e341]:
+        - heading "Local Experts" [level=3] [ref=f46e345]
+        - paragraph [ref=f46e346]: Born & raised Bahamian guides who know every hidden gem
+      - generic [ref=f46e347]:
+        - heading "Safety First" [level=3] [ref=f46e351]
+        - paragraph [ref=f46e352]: Licensed, insured, and certified for your peace of mind
+      - generic [ref=f46e353]:
+        - heading "Small Groups" [level=3] [ref=f46e357]
+        - paragraph [ref=f46e358]: Intimate experiences with personalized attention
+      - generic [ref=f46e359]:
+        - heading "Best Prices" [level=3] [ref=f46e363]
+        - paragraph [ref=f46e364]: Competitive rates with no hidden fees or charges
+  - generic [ref=f46e366]:
+    - generic [ref=f46e367]:
+      - paragraph [ref=f46e368]: Get In Touch
+      - heading "Contact Us" [level=2] [ref=f46e369]
+      - paragraph [ref=f46e370]: Ready to book your adventure? Get in touch and let's plan something amazing
+    - generic [ref=f46e371]:
+      - generic [ref=f46e372]:
+        - link [ref=f46e373] [cursor=pointer]:
+          - /url: tel:242-552-7461
+          - generic [ref=f46e377]:
+            - paragraph [ref=f46e378]: Phone
+            - paragraph [ref=f46e379]: 242-552-7461
+        - link [ref=f46e380] [cursor=pointer]:
+          - /url: mailto:sjaysadventures@gmail.com
+          - generic [ref=f46e384]:
+            - paragraph [ref=f46e385]: Email
+            - paragraph [ref=f46e386]: sjaysadventures@gmail.com
+        - link [ref=f46e387] [cursor=pointer]:
+          - /url: https://wa.me/2425527461
+          - generic [ref=f46e391]:
+            - paragraph [ref=f46e392]: WhatsApp
+            - paragraph [ref=f46e393]: Message Us
+        - generic [ref=f46e399]:
+          - paragraph [ref=f46e400]: Location
+          - paragraph [ref=f46e401]: Nassau, Bahamas
+        - link [ref=f46e403] [cursor=pointer]:
+          - /url: https://web.facebook.com/p/s_jays_adventures-100063709200271/
+      - generic [ref=f46e407]:
+        - generic [ref=f46e408]:
+          - generic [ref=f46e409]: Full Name
+          - textbox "Your name" [ref=f46e410]
+        - generic [ref=f46e411]:
+          - generic [ref=f46e412]: Email
+          - textbox "your@email.com" [ref=f46e413]
+        - generic [ref=f46e414]:
+          - generic [ref=f46e415]: Message
+          - textbox "Tell us about your dream adventure..." [ref=f46e416]
+        - button "Send Message" [ref=f46e417]
+  - contentinfo [ref=f46e418]:
+    - generic [ref=f46e419]:
+      - generic [ref=f46e420]:
+        - generic [ref=f46e421]:
+          - heading "S Jays Adventures" [level=3] [ref=f46e422]
+          - paragraph [ref=f46e423]: Your trusted partner for unforgettable experiences. Let us show you the beauty that awaits.
+        - generic [ref=f46e424]:
+          - heading "Quick Links" [level=4] [ref=f46e425]
+          - list [ref=f46e426]:
+            - listitem [ref=f46e427]:
+              - link "Home" [ref=f46e428] [cursor=pointer]:
+                - /url: "#home"
+            - listitem [ref=f46e429]:
+              - link "About" [ref=f46e430] [cursor=pointer]:
+                - /url: "#about"
+            - listitem [ref=f46e431]:
+              - link "Tours" [ref=f46e432] [cursor=pointer]:
+                - /url: "#packages"
+            - listitem [ref=f46e433]:
+              - link "Gallery" [ref=f46e434] [cursor=pointer]:
+                - /url: "#gallery"
+            - listitem [ref=f46e435]:
+              - link "Contact" [ref=f46e436] [cursor=pointer]:
+                - /url: "#contact"
+        - generic [ref=f46e437]:
+          - heading "Contact" [level=4] [ref=f46e438]
+          - list [ref=f46e439]:
+            - listitem [ref=f46e440]:
+              - link "242-552-7461" [ref=f46e441] [cursor=pointer]:
+                - /url: tel:242-552-7461
+            - listitem [ref=f46e444]:
+              - link "sjaysadventures@gmail.com" [ref=f46e445] [cursor=pointer]:
+                - /url: mailto:sjaysadventures@gmail.com
+            - listitem [ref=f46e448]: Nassau, Bahamas
+      - generic [ref=f46e452]:
+        - paragraph [ref=f46e453]: © 2026 S Jays Adventures. All rights reserved.
+        - paragraph [ref=f46e454]: Designed by KCOM
+  - button "Scroll to top" [ref=f46e455]

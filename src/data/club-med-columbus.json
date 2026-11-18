@@ -1,0 +1,94 @@
+{
+  "name": "Club Med Columbus Bahamas",
+  "slug": "club-med-columbus",
+  "tagline": "A Surreal, Secluded Stay in Paradise",
+  "description": "Experience boundless white sand beaches alongside infinite blue water at our premium resort in Bonefish Bay, Bahamas.",
+  "type": "tour",
+  "region": "Bahamas",
+  "phone": "242-422-2341",
+  "email": "colcrehu04@clubmed.com",
+  "whatsapp": "2424222341",
+  "address": "Queen's Highway, Bonefish Bay, Bahamas",
+  "facebook": "https://www.facebook.com/p/Club-Med-Columbus-Bahamas-100093251014349/",
+  "instagram": "",
+  "heroImage": "/images/club-med-columbus/photo-2.jpg",
+  "colors": {
+    "primary": "#1E88E5",
+    "primaryDark": "#1565C0",
+    "secondary": "#0F172A",
+    "accent": "#FFB300",
+    "light": "#E3F2FD"
+  },
+  "about": {
+    "title": "About Club Med Columbus",
+    "text": "Club Med Columbus Bahamas offers a surreal, secluded stay with boundless white sand beaches alongside infinite blue water. Located in the pristine Bonefish Bay, our all-inclusive resort provides world-class amenities, water sports, fine dining, and unforgettable experiences. Escape the ordinary and discover paradise with us.",
+    "experience": "20+",
+    "tours_completed": "2000",
+    "happy_clients": "10000",
+    "rating": "4.8"
+  },
+  "packages": [
+    {
+      "name": "All-Inclusive Escape",
+      "description": "Complete resort experience with dining, activities, and relaxation",
+      "price": "$450",
+      "duration": "Per Night",
+      "highlights": ["All Meals", "Water Sports", "Entertainment", "Premium Bar"]
+    },
+    {
+      "name": "Water Sports Package",
+      "description": "Kayaking, snorkeling, paddleboarding and more in crystal waters",
+      "price": "$120",
+      "duration": "Full Day",
+      "highlights": ["Kayaking", "Snorkeling", "Paddleboard", "Equipment Included"]
+    },
+    {
+      "name": "Island Excursion",
+      "description": "Guided exploration of the surrounding islands and marine life",
+      "price": "$275",
+      "duration": "6 Hours",
+      "highlights": ["Boat Trip", "Island Hopping", "Lunch", "Guided Tour"]
+    },
+    {
+      "name": "Wellness Retreat",
+      "description": "Rejuvenate with spa treatments, yoga, and oceanfront meditation",
+      "price": "$350",
+      "duration": "Full Day",
+      "highlights": ["Spa Treatment", "Yoga Session", "Meditation", "Healthy Dining"]
+    }
+  ],
+  "gallery": [
+    { "alt": "Club Med Columbus beachfront" },
+    { "alt": "White sand beach" },
+    { "alt": "Crystal clear Bonefish Bay" },
+    { "alt": "Resort pool area" },
+    { "alt": "Water sports activities" },
+    { "alt": "Sunset at the resort" }
+  ],
+  "testimonials": [
+    {
+      "name": "Jonathan Pierce",
+      "location": "New York, USA",
+      "text": "Club Med Columbus is a hidden gem. The secluded beach, incredible food, and endless activities made this our best vacation ever. Truly paradise!",
+      "rating": 5
+    },
+    {
+      "name": "Isabelle Dupont",
+      "location": "Montreal, Canada",
+      "text": "The all-inclusive experience was flawless. From the water sports to the evening entertainment, every detail was perfect. We're already planning our return.",
+      "rating": 5
+    },
+    {
+      "name": "Andrew & Kate Wilson",
+      "location": "Dublin, Ireland",
+      "text": "The wellness retreat package was exactly what we needed. Yoga on the beach, spa treatments, and the most beautiful water we've ever seen. Absolutely magical.",
+      "rating": 5
+    }
+  ],
+  "usps": [
+    { "title": "Secluded Paradise", "description": "Private beachfront resort far from the crowds", "icon": "compass" },
+    { "title": "All-Inclusive", "description": "Premium dining, drinks, and activities all included", "icon": "shield" },
+    { "title": "World-Class Service", "description": "Club Med's legendary hospitality and attention to detail", "icon": "users" },
+    { "title": "Endless Activities", "description": "Water sports, wellness, excursions, and entertainment", "icon": "tag" }
+  ]
+}

@@ -1,0 +1,122 @@
+---
+interface Vehicle {
+  name: string;
+  year: string;
+  price: string;
+  type: string;
+  highlights: string[];
+}
+
+interface Props {
+  vehicles: Vehicle[];
+  primaryColor: string;
+  phone: string;
+}
+
+const { vehicles, primaryColor, phone } = Astro.props;
+
+const carImages = [
+  "/images/stock/cars/car-1.jpg",
+  "/images/stock/cars/car-2.jpg",
+  "/images/stock/cars/car-3.jpg",
+  "/images/stock/cars/car-4.jpg",
+  "/images/stock/cars/car-5.jpg",
+  "/images/stock/cars/car-6.jpg",
+];
+---
+
+<section
+  id="inventory"
+  class="py-24 md:py-32 relative overflow-hidden"
+  style={`background: ${primaryColor}06;`}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Header -->
+    <div class="text-center mb-16">
+      <p
+        class="text-sm uppercase tracking-[0.2em] font-semibold mb-4"
+        style={`color: ${primaryColor};`}
+        data-animate="fade-up"
+      >
+        Our Inventory
+      </p>
+      <h2
+        class="text-4xl md:text-5xl font-bold text-gray-900 mb-4"
+        data-animate="fade-up"
+        data-delay="0.1"
+      >
+        Featured Vehicles
+      </h2>
+      <p
+        class="text-lg text-gray-500 max-w-2xl mx-auto"
+        data-animate="fade-up"
+        data-delay="0.2"
+      >
+        Browse our hand-picked selection of quality vehicles ready for the road
+      </p>
+    </div>
+
+    <!-- Vehicle Grid -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" data-stagger>
+      {vehicles.map((vehicle, i) => (
+        <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 flex flex-col">
+          <!-- Vehicle Image -->
+          <div class="relative h-52 overflow-hidden">
+            <img
+              src={carImages[i % carImages.length]}
+              alt={vehicle.name}
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              loading="lazy"
+            />
+            <!-- Year Badge -->
+            <div
+              class="absolute top-4 left-4 px-3 py-1 rounded-full text-white text-sm font-bold"
+              style={`background: ${primaryColor};`}
+            >
+              {vehicle.year}
+            </div>
+            <!-- Type Badge -->
+            <div class="absolute top-4 right-4 px-3 py-1 rounded-full bg-black/60 text-white text-xs font-medium backdrop-blur-sm">
+              {vehicle.type}
+            </div>
+          </div>
+
+          <!-- Info -->
+          <div class="p-6 flex flex-col flex-1">
+            <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-opacity-90">
+              {vehicle.name}
+            </h3>
+            <p
+              class="text-2xl font-bold mb-4"
+              style={`color: ${primaryColor};`}
+            >
+              {vehicle.price}
+            </p>
+
+            <!-- Highlights -->
+            <div class="flex flex-wrap gap-2 mb-5">
+              {vehicle.highlights.map((h) => (
+                <span
+                  class="text-xs px-3 py-1 rounded-full font-medium"
+                  style={`background: ${primaryColor}10; color: ${primaryColor};`}
+                >
+                  {h}
+                </span>
+              ))}
+            </div>
+
+            <!-- CTA -->
+            <a
+              href={`https://wa.me/${phone}?text=Hi! I'm interested in the ${vehicle.year} ${vehicle.name}`}
+              target="_blank"
+              class="block w-full text-center py-3 rounded-xl text-white font-semibold transition-all duration-300 hover:scale-[1.02] hover:shadow-lg mt-auto"
+              style={`background: ${primaryColor};`}
+            >
+              Inquire Now
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

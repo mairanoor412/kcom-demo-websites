@@ -1,0 +1,94 @@
+{
+  "name": "Bahamas Exquisite Transfers & Tours",
+  "slug": "bahamas-exquisite",
+  "tagline": "Your Gateway to Paradise",
+  "description": "Luxury chauffeured transportation and tours in Nassau, Bahamas. Every mile sparks an adventure — total customer satisfaction guaranteed.",
+  "type": "tour",
+  "region": "Bahamas",
+  "phone": "242-457-3423",
+  "email": "bahamasexquisite@gmail.com",
+  "whatsapp": "2424573423",
+  "address": "Nassau, Bahamas",
+  "facebook": "https://www.facebook.com/p/Bahamas-Exquisite-Transfers-Tours-100086478998073/",
+  "instagram": "https://www.instagram.com/bahamasexquisite242",
+  "heroImage": "/images/bahamas-exquisite/photo-2.jpg",
+  "colors": {
+    "primary": "#B8860B",
+    "primaryDark": "#8B6914",
+    "secondary": "#1A1A2E",
+    "accent": "#0EA5E9",
+    "light": "#FFFDF5"
+  },
+  "about": {
+    "title": "About Bahamas Exquisite",
+    "text": "Bahamas Exquisite Transfers & Tours (BETT) is a premier luxury chauffeured transportation service in Nassau, Bahamas. We provide first-class transportation to travelers, hotels, event organizers, and international travel agencies. Our fleet of Cadillac Escalades, Chevrolet Suburbans, GMC Yukons, and Mercedes Sprinters ensures you travel in style and comfort. Every mile sparks an adventure!",
+    "experience": "10+",
+    "tours_completed": "1500",
+    "happy_clients": "6000",
+    "rating": "4.9"
+  },
+  "packages": [
+    {
+      "name": "Airport Transfer",
+      "description": "Luxury airport pick-up and drop-off in premium vehicles",
+      "price": "$85",
+      "duration": "Transfer",
+      "highlights": ["Meet & Greet", "Luggage Help", "Luxury Vehicle", "24/7 Service"]
+    },
+    {
+      "name": "Island Tour",
+      "description": "Guided exploration of Nassau in a luxury chauffeured vehicle",
+      "price": "$250",
+      "duration": "6 Hours",
+      "highlights": ["Luxury SUV", "Expert Guide", "Photo Stops", "Flexible Route"]
+    },
+    {
+      "name": "VIP Concierge",
+      "description": "Full VIP treatment from gate to destination with personal assistant",
+      "price": "$350",
+      "duration": "Full Service",
+      "highlights": ["Gate Welcome", "Fast-Track", "Immigration Help", "Luggage Handling"]
+    },
+    {
+      "name": "Event Transportation",
+      "description": "Premium fleet for weddings, conventions, and special events",
+      "price": "$500",
+      "duration": "Full Day",
+      "highlights": ["Multiple Vehicles", "Coordination", "Luxury Fleet", "Custom Schedule"]
+    }
+  ],
+  "gallery": [
+    { "alt": "Luxury Cadillac Escalade fleet", "image": "/images/bahamas-exquisite/photo-2.jpg" },
+    { "alt": "VIP airport transfer", "image": "/images/bahamas-exquisite/photo-3.jpg" },
+    { "alt": "Mercedes Sprinter shuttle", "image": "/images/bahamas-exquisite/photo-4.jpg" },
+    { "alt": "Nassau island tour", "image": "/images/bahamas-exquisite/photo-5.jpg" },
+    { "alt": "Wedding transportation", "image": "/images/bahamas-exquisite/photo-6.jpg" },
+    { "alt": "Premium fleet lineup" }
+  ],
+  "testimonials": [
+    {
+      "name": "Richard & Diane Palmer",
+      "location": "Chicago, USA",
+      "text": "BETT provided flawless transportation for our entire vacation. The Escalade was immaculate, the driver was professional, and the island tour was phenomenal.",
+      "rating": 5
+    },
+    {
+      "name": "Sandra Thompson",
+      "location": "London, UK",
+      "text": "The VIP concierge service was incredible — they met us at the gate, handled customs, and had us relaxing at our resort within minutes. Worth every penny!",
+      "rating": 5
+    },
+    {
+      "name": "Caribbean Wedding Planners",
+      "location": "Nassau, Bahamas",
+      "text": "We use BETT for all our wedding transportation needs. Their fleet is stunning, their coordination is flawless, and their drivers are always professional. Highly recommended!",
+      "rating": 5
+    }
+  ],
+  "usps": [
+    { "title": "Luxury Fleet", "description": "Escalades, Suburbans, Yukons & Mercedes Sprinters", "icon": "compass" },
+    { "title": "VIP Service", "description": "Gate welcomes, fast-track customs, personal concierge", "icon": "shield" },
+    { "title": "24/7 Available", "description": "Round-the-clock service for all your transportation needs", "icon": "users" },
+    { "title": "Total Satisfaction", "description": "Our motto — we don't rest until you're completely happy", "icon": "tag" }
+  ]
+}

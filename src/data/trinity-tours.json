@@ -1,0 +1,94 @@
+{
+  "name": "Trinity Tours & Travel Agency",
+  "slug": "trinity-tours",
+  "tagline": "Explore the Beauty of Grand Bahama",
+  "description": "Professional taxi services, island excursions, and rental cars in Freeport, Grand Bahama. Let driver Marc show you the best of our beautiful island.",
+  "type": "tour",
+  "region": "Bahamas",
+  "phone": "242-443-8992",
+  "email": "",
+  "whatsapp": "2424438992",
+  "address": "Freeport, The Bahamas",
+  "facebook": "https://www.facebook.com/profile.php?id=100069416197690",
+  "instagram": "",
+  "heroImage": "/images/trinity-tours/photo-1.jpg",
+  "colors": {
+    "primary": "#0D9488",
+    "primaryDark": "#0F766E",
+    "secondary": "#1E293B",
+    "accent": "#F97316",
+    "light": "#F0FDFA"
+  },
+  "about": {
+    "title": "About Trinity Tours",
+    "text": "Based in Freeport, Grand Bahama, Trinity Tours & Travel Agency offers premium taxi services, pick-up and drop-off, island excursions, and rental cars. Our experienced drivers know every corner of Grand Bahama, from hidden beaches to cultural landmarks. We're always open and ready to show you the beauty of our island.",
+    "experience": "8+",
+    "tours_completed": "300",
+    "happy_clients": "1200",
+    "rating": "4.8"
+  },
+  "packages": [
+    {
+      "name": "Grand Bahama Island Tour",
+      "description": "Full-day guided tour covering all the highlights of Grand Bahama Island",
+      "price": "$150",
+      "duration": "7 Hours",
+      "highlights": ["Lucayan National Park", "Garden of the Groves", "Port Lucaya", "Local Cuisine"]
+    },
+    {
+      "name": "Airport Transfer",
+      "description": "Comfortable and reliable airport pick-up and drop-off service",
+      "price": "$45",
+      "duration": "Transfer",
+      "highlights": ["Meet & Greet", "Air-Conditioned", "Luggage Help", "Any Time"]
+    },
+    {
+      "name": "Beach Excursion",
+      "description": "Visit the most stunning beaches on Grand Bahama Island",
+      "price": "$120",
+      "duration": "5 Hours",
+      "highlights": ["Gold Rock Beach", "Taino Beach", "Swimming", "Photos"]
+    },
+    {
+      "name": "Custom Island Tour",
+      "description": "Design your own tour with our experienced local drivers",
+      "price": "$180",
+      "duration": "Full Day",
+      "highlights": ["Your Itinerary", "Local Guide", "Flexible Timing", "Hidden Gems"]
+    }
+  ],
+  "gallery": [
+    { "alt": "Grand Bahama beach", "image": "/images/trinity-tours/photo-1.jpg" },
+    { "alt": "Lucayan National Park", "image": "/images/trinity-tours/photo-2.jpg" },
+    { "alt": "Port Lucaya Marketplace", "image": "/images/trinity-tours/photo-3.jpg" },
+    { "alt": "Crystal clear Bahamas waters", "image": "/images/trinity-tours/photo-4.jpg" },
+    { "alt": "Garden of the Groves", "image": "/images/trinity-tours/photo-5.jpg" },
+    { "alt": "Freeport harbor sunset", "image": "/images/trinity-tours/photo-6.jpg" }
+  ],
+  "testimonials": [
+    {
+      "name": "David Williams",
+      "location": "Miami, USA",
+      "text": "Marc was an incredible tour guide! He showed us parts of the island we never would have found on our own. The whole experience was fantastic.",
+      "rating": 5
+    },
+    {
+      "name": "Emma Thompson",
+      "location": "Manchester, UK",
+      "text": "Perfect airport transfer service — on time, friendly, and very helpful. We also booked the island tour and loved every minute of it.",
+      "rating": 5
+    },
+    {
+      "name": "Robert Chen",
+      "location": "Vancouver, Canada",
+      "text": "Trinity Tours made our Grand Bahama trip truly special. The beach excursion was the highlight of our vacation. Highly recommend!",
+      "rating": 5
+    }
+  ],
+  "usps": [
+    { "title": "Always Available", "description": "Open 24/7 — whenever you need us, we're ready to go", "icon": "compass" },
+    { "title": "Licensed & Insured", "description": "Professional, safe, and fully licensed transportation", "icon": "shield" },
+    { "title": "Local Knowledge", "description": "Born and raised guides who know every hidden gem", "icon": "users" },
+    { "title": "Fair Pricing", "description": "Transparent rates with no surprise charges", "icon": "tag" }
+  ]
+}

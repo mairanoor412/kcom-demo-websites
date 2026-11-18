@@ -1,0 +1,332 @@
+- generic [ref=f18e5]:
+  - banner:
+    - generic [ref=f18e6]:
+      - generic:
+        - generic:
+          - button [disabled] [aria-hidden]
+      - link "Facebook" [ref=f18e7] [cursor=pointer]:
+        - /url: /
+    - generic [ref=f18e16]:
+      - generic [ref=f18e17]:
+        - generic:
+          - generic:
+            - generic:
+              - button [aria-hidden]
+      - combobox "Search Facebook" [ref=f18e20] [cursor=pointer]
+    - navigation "Facebook" [ref=f18e24]:
+      - list [ref=f18e25]:
+        - listitem [ref=f18e26]:
+          - link "Home" [ref=f18e29] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f18e33]:
+          - link "Reels" [ref=f18e36] [cursor=pointer]:
+            - /url: /reel/?s=tab
+        - listitem [ref=f18e41]:
+          - link "Friends" [ref=f18e44] [cursor=pointer]:
+            - /url: /friends/
+        - listitem [ref=f18e48]:
+          - link "Groups" [ref=f18e51] [cursor=pointer]:
+            - /url: /groups/
+    - navigation "Account Controls and Settings" [ref=f18e56]:
+      - button "Facebook menu" [ref=f18e61] [cursor=pointer]
+      - button "Messenger" [ref=f18e68] [cursor=pointer]
+      - generic [ref=f18e74]:
+        - button "Notifications" [ref=f18e75] [cursor=pointer]
+        - button [aria-hidden] [ref=f18e78] [cursor=pointer]:
+          - generic [ref=f18e79]:
+            - generic [ref=f18e80]: Number of unread notifications
+            - generic [aria-hidden] [ref=f18e81]: "7"
+      - button "Account, your profile" [ref=f18e84] [cursor=pointer]:
+        - img "Your profile" [ref=f18e86]
+  - main [ref=f18e102]:
+    - generic [ref=f18e103]:
+      - generic [ref=f18e115]:
+        - link "Trinity Tours & Travel Agency" [ref=f18e119] [cursor=pointer]:
+          - /url: https://www.facebook.com/photo/?fbid=1452322570424936&set=a.587332043590664&__tn__=%3C
+          - img "Trinity Tours & Travel Agency" [ref=f18e121]
+        - generic [ref=f18e127]:
+          - generic [ref=f18e129]:
+            - generic [ref=f18e132]:
+              - button "Trinity Tours & Travel Agency" [ref=f18e137] [cursor=pointer]
+              - generic [ref=f18e140]:
+                - link [ref=f18e141] [cursor=pointer]:
+                  - /url: https://www.facebook.com/profile.php?id=100069416197690&sk=followers
+                  - strong [ref=f18e142]: "21"
+                  - text: followers
+                - text: •
+                - link [ref=f18e143] [cursor=pointer]:
+                  - /url: https://www.facebook.com/profile.php?id=100069416197690&sk=following
+                  - strong [ref=f18e144]: "0"
+                  - text: following
+            - generic [ref=f18e147]:
+              - button "Call now" [ref=f18e151] [cursor=pointer]
+              - button "Message" [ref=f18e157] [cursor=pointer]
+              - button "Follow" [ref=f18e164] [cursor=pointer]
+          - generic [ref=f18e168]: Taxi Services Pick Up/Drop Off & Excursion on Island(Rental Cars Available)For more information please contact us to explore our beautiful island.
+          - list "Highlighted details" [ref=f18e173]:
+            - listitem [ref=f18e174]:
+              - button "Taxi Service" [ref=f18e178] [cursor=pointer]
+      - generic [ref=f18e187]:
+        - tablist [ref=f18e195]:
+          - generic:
+            - generic:
+              - generic [ref=f18e197]: More
+              - tab "All" [selected] [ref=f18e203] [cursor=pointer]
+              - tab "About" [ref=f18e207] [cursor=pointer]
+              - tab "Followers" [ref=f18e211] [cursor=pointer]
+              - tab "Photos" [ref=f18e215] [cursor=pointer]
+              - tab "Mentions" [ref=f18e219] [cursor=pointer]
+              - tab "More profile sections" [ref=f18e223] [cursor=pointer]:
+                - generic [ref=f18e224]: More
+        - button "Profile settings see more options" [ref=f18e232] [cursor=pointer]
+    - generic [ref=f18e241]:
+      - generic [ref=f18e244]:
+        - status "Loading..." [ref=f18e245]:
+          - list [ref=f18e252]:
+            - listitem [ref=f18e253]
+            - listitem [ref=f18e257]
+            - listitem [ref=f18e261]
+            - listitem [ref=f18e265]
+            - listitem [ref=f18e269]
+            - listitem [ref=f18e273]
+            - listitem [ref=f18e277]
+            - listitem [ref=f18e281]
+            - listitem [ref=f18e285]
+        - status "Loading..." [ref=f18e289]:
+          - list [ref=f18e296]:
+            - listitem [ref=f18e297]
+            - listitem [ref=f18e301]
+            - listitem [ref=f18e305]
+            - listitem [ref=f18e309]
+            - listitem [ref=f18e313]
+            - listitem [ref=f18e317]
+            - listitem [ref=f18e321]
+            - listitem [ref=f18e325]
+            - listitem [ref=f18e329]
+        - status "Loading..." [ref=f18e333]:
+          - list [ref=f18e340]:
+            - listitem [ref=f18e341]
+            - listitem [ref=f18e345]
+            - listitem [ref=f18e349]
+            - listitem [ref=f18e353]
+            - listitem [ref=f18e357]
+            - listitem [ref=f18e361]
+            - listitem [ref=f18e365]
+            - listitem [ref=f18e369]
+            - listitem [ref=f18e373]
+      - generic [ref=f18e377]:
+        - generic [ref=f18e381]:
+          - heading "Posts" [level=2] [ref=f18e385]
+          - button "Filters" [ref=f18e390] [cursor=pointer]
+        - generic [ref=f18e396]:
+          - generic [ref=f18e409]:
+            - blockquote [ref=f18e411]:
+              - generic [ref=f18e412]: Facebook
+            - blockquote [ref=f18e414]:
+              - generic [ref=f18e415]: Facebook
+            - blockquote [ref=f18e417]:
+              - generic [ref=f18e418]: Facebook
+            - blockquote [ref=f18e420]:
+              - generic [ref=f18e421]: Facebook
+            - blockquote [ref=f18e423]:
+              - generic [ref=f18e424]: Facebook
+            - blockquote [ref=f18e426]:
+              - generic [ref=f18e427]: Facebook
+            - blockquote [ref=f18e429]:
+              - generic [ref=f18e430]: Facebook
+            - blockquote [ref=f18e432]:
+              - generic [ref=f18e433]: Facebook
+            - blockquote [ref=f18e435]:
+              - generic [ref=f18e436]: Facebook
+            - blockquote [ref=f18e438]:
+              - generic [ref=f18e439]: Facebook
+            - blockquote [ref=f18e441]:
+              - generic [ref=f18e442]: Facebook
+            - generic [ref=f18e445]:
+              - generic:
+                - blockquote [ref=f18e447]:
+                  - generic [ref=f18e448]: Facebook
+                - blockquote [ref=f18e450]:
+                  - generic [ref=f18e451]: Facebook
+                - blockquote [ref=f18e453]:
+                  - generic [ref=f18e454]: Facebook
+                - blockquote [ref=f18e456]:
+                  - generic [ref=f18e457]: Facebook
+                - blockquote [ref=f18e459]:
+                  - generic [ref=f18e460]: Facebook
+                - blockquote [ref=f18e462]:
+                  - generic [ref=f18e463]: Facebook
+                - blockquote [ref=f18e465]:
+                  - generic [ref=f18e466]: Facebook
+                - blockquote [ref=f18e468]:
+                  - generic [ref=f18e469]: Facebook
+                - blockquote [ref=f18e471]:
+                  - generic [ref=f18e472]: Facebook
+                - blockquote [ref=f18e474]:
+                  - generic [ref=f18e475]: Facebook
+                - blockquote [ref=f18e477]:
+                  - generic [ref=f18e478]: Facebook
+                - blockquote [ref=f18e480]:
+                  - generic [ref=f18e481]: Facebook
+                - blockquote [ref=f18e483]:
+                  - generic [ref=f18e484]: Facebook
+                - blockquote [ref=f18e486]:
+                  - generic [ref=f18e487]: Facebook
+                - blockquote [ref=f18e489]:
+                  - generic [ref=f18e490]: Facebook
+                - blockquote [ref=f18e492]:
+                  - generic [ref=f18e493]: Facebook
+                - blockquote [ref=f18e495]:
+                  - generic [ref=f18e496]: Facebook
+                - blockquote [ref=f18e498]:
+                  - generic [ref=f18e499]: Facebook
+                - blockquote [ref=f18e501]:
+                  - generic [ref=f18e502]: Facebook
+                - blockquote [ref=f18e504]:
+                  - generic [ref=f18e505]: Facebook
+                - blockquote [ref=f18e507]:
+                  - generic [ref=f18e508]: Facebook
+                - blockquote [ref=f18e510]:
+                  - generic [ref=f18e511]: Facebook
+              - generic [ref=f18e513]:
+                - link "Trinity Tours & Travel Agency" [ref=f18e517] [cursor=pointer]:
+                  - /url: https://www.facebook.com/profile.php?id=100069416197690&__cft__[0]=AZi3wjWRGFMmQ-EM4Dmo8A_TQoK-8ajWTtNrKS7hQK48sw-lVXZiKIRIYRZ_Y_sbLcbWoJgnb-R9wiusDqoci-PkqRakkMNK_2CbC8ueMRitcNkAfZhdIQXI414QEFr3351vUgQMrRj6UIBMmb2nrPzpuILoYgra0DrScExWYvNxW0IT1jVN7lq0FAE&__tn__=%3C%3C%2CP-R
+                  - img "Trinity Tours & Travel Agency" [ref=f18e519]
+                - generic [ref=f18e524]:
+                  - heading [level=2] [ref=f18e528]:
+                    - generic [ref=f18e531]:
+                      - link "Trinity Tours & Travel Agency" [ref=f18e537] [cursor=pointer]:
+                        - /url: https://www.facebook.com/profile.php?id=100069416197690&__cft__[0]=AZi3wjWRGFMmQ-EM4Dmo8A_TQoK-8ajWTtNrKS7hQK48sw-lVXZiKIRIYRZ_Y_sbLcbWoJgnb-R9wiusDqoci-PkqRakkMNK_2CbC8ueMRitcNkAfZhdIQXI414QEFr3351vUgQMrRj6UIBMmb2nrPzpuILoYgra0DrScExWYvNxW0IT1jVN7lq0FAE&__tn__=-]C%2CP-R
+                      - text: is in
+                      - link "Freeport, The Bahamas" [ref=f18e540] [cursor=pointer]:
+                        - /url: https://www.facebook.com/Freeport-Bahamas-109494072403597/?__cft__[0]=AZi3wjWRGFMmQ-EM4Dmo8A_TQoK-8ajWTtNrKS7hQK48sw-lVXZiKIRIYRZ_Y_sbLcbWoJgnb-R9wiusDqoci-PkqRakkMNK_2CbC8ueMRitcNkAfZhdIQXI414QEFr3351vUgQMrRj6UIBMmb2nrPzpuILoYgra0DrScExWYvNxW0IT1jVN7lq0FAE&__tn__=kC%2CP-R
+                      - text: .
+                  - generic [ref=f18e545]:
+                    - link "t͏ S͏ o͏ p͏ r͏ s͏ n͏ d͏ o͏ e͏ 1͏ i͏ v͏ g͏ ͏ ͏ 0͏ N͏ 9͏ 2͏ h͏ 4͏ 8͏ 9͏ ͏ a͏ 1͏ o͏ P͏ 2͏ 7͏ M͏ 1͏ 2͏ :͏ 1͏ m͏ 0͏ c͏ t͏ 9͏ i͏ ͏ 5͏ e͏ 3͏ e͏ a͏ 0͏ g͏ b͏ 0͏ m͏ 2͏ 1͏ g͏ h͏ 4͏ 0͏ r͏ u͏" [ref=f18e549] [cursor=pointer]:
+                      - /url: "?__cft__[0]=AZi3wjWRGFMmQ-EM4Dmo8A_TQoK-8ajWTtNrKS7hQK48sw-lVXZiKIRIYRZ_Y_sbLcbWoJgnb-R9wiusDqoci-PkqRakkMNK_2CbC8ueMRitcNkAfZhdIQXI414QEFr3351vUgQMrRj6UIBMmb2nrPzpuILoYgra0DrScExWYvNxW0IT1jVN7lq0FAE&__tn__=%2CO%2CP-R#?fjd"
+                      - generic [ref=f18e552]:
+                        - generic [ref=f18e553]: t͏
+                        - generic [ref=f18e554]: S͏
+                        - generic [ref=f18e555]: o͏
+                        - generic [ref=f18e556]: p͏
+                        - generic [ref=f18e557]: r͏
+                        - generic [ref=f18e558]: s͏
+                        - generic [ref=f18e559]: n͏
+                        - generic [ref=f18e560]: d͏
+                        - generic [ref=f18e561]: o͏
+                        - generic [ref=f18e562]: e͏
+                        - generic [ref=f18e563]: 1͏
+                        - generic [ref=f18e564]: i͏
+                        - generic [ref=f18e565]: v͏
+                        - generic [ref=f18e566]: g͏
+                        - generic [ref=f18e567]: ͏
+                        - generic [ref=f18e568]: ͏
+                        - generic [ref=f18e569]: 0͏
+                        - generic [ref=f18e570]: N͏
+                        - generic [ref=f18e571]: 9͏
+                        - generic [ref=f18e572]: 2͏
+                        - generic [ref=f18e573]: h͏
+                        - generic [ref=f18e574]: 4͏
+                        - generic [ref=f18e575]: 8͏
+                        - generic [ref=f18e576]: 9͏
+                        - generic [ref=f18e577]: ͏
+                        - generic [ref=f18e578]: a͏
+                        - generic [ref=f18e579]: 1͏
+                        - generic [ref=f18e580]: o͏
+                        - generic [ref=f18e581]: P͏
+                        - generic [ref=f18e582]: 2͏
+                        - generic [ref=f18e583]: 7͏
+                        - generic [ref=f18e584]: M͏
+                        - generic [ref=f18e585]: 1͏
+                        - generic [ref=f18e586]: 2͏
+                        - generic [ref=f18e587]: :͏
+                        - generic [ref=f18e588]: 1͏
+                        - generic [ref=f18e589]: m͏
+                        - generic [ref=f18e590]: 0͏
+                        - generic [ref=f18e591]: c͏
+                        - generic [ref=f18e592]: t͏
+                        - generic [ref=f18e593]: 9͏
+                        - generic [ref=f18e594]: i͏
+                        - generic [ref=f18e595]: ͏
+                        - generic [ref=f18e596]: 5͏
+                        - generic [ref=f18e597]: e͏
+                        - generic [ref=f18e598]: 3͏
+                        - generic [ref=f18e599]: e͏
+                        - generic [ref=f18e600]: a͏
+                        - generic [ref=f18e601]: 0͏
+                        - generic [ref=f18e602]: g͏
+                        - generic [ref=f18e603]: b͏
+                        - generic [ref=f18e604]: 0͏
+                        - generic [ref=f18e605]: m͏
+                        - generic [ref=f18e606]: 2͏
+                        - generic [ref=f18e607]: 1͏
+                        - generic [ref=f18e608]: g͏
+                        - generic [ref=f18e609]: h͏
+                        - generic [ref=f18e610]: 4͏
+                        - generic [ref=f18e611]: 0͏
+                        - generic [ref=f18e612]: r͏
+                        - generic [ref=f18e613]: u͏
+                    - generic [ref=f18e614]: ·
+                    - img "Shared with Public" [ref=f18e620]
+                - button "Actions for this post by Trinity Tours & Travel Agency" [ref=f18e628] [cursor=pointer]
+              - generic [ref=f18e632]:
+                - generic [ref=f18e641]:
+                  - text: WWE Bodyguard on tour with Marc at
+                  - link "Trinity Tours & Travel Agency" [ref=f18e643] [cursor=pointer]:
+                    - /url: https://www.facebook.com/profile.php?id=100069416197690&__cft__[0]=AZi3wjWRGFMmQ-EM4Dmo8A_TQoK-8ajWTtNrKS7hQK48sw-lVXZiKIRIYRZ_Y_sbLcbWoJgnb-R9wiusDqoci-PkqRakkMNK_2CbC8ueMRitcNkAfZhdIQXI414QEFr3351vUgQMrRj6UIBMmb2nrPzpuILoYgra0DrScExWYvNxW0IT1jVN7lq0FAE&__tn__=-]K-R
+                  - text: on Grand Bahama Island
+                - link [ref=f18e648] [cursor=pointer]:
+                  - /url: https://www.facebook.com/photo/?fbid=1459903139666879&set=a.587332050257330&__cft__[0]=AZi3wjWRGFMmQ-EM4Dmo8A_TQoK-8ajWTtNrKS7hQK48sw-lVXZiKIRIYRZ_Y_sbLcbWoJgnb-R9wiusDqoci-PkqRakkMNK_2CbC8ueMRitcNkAfZhdIQXI414QEFr3351vUgQMrRj6UIBMmb2nrPzpuILoYgra0DrScExWYvNxW0IT1jVN7lq0FAE&__tn__=EH-R
+                  - img "May be an image of jeep, car, road and text" [ref=f18e653]
+              - generic [ref=f18e656]:
+                - generic [ref=f18e660]:
+                  - generic [ref=f18e661]:
+                    - button "React with Like to Trinity Tours & Travel Agency's post" [ref=f18e662] [cursor=pointer]
+                    - button "React to Trinity Tours & Travel Agency's post" [ref=f18e667] [cursor=pointer]
+                  - button "Comment on Trinity Tours & Travel Agency's post" [ref=f18e671] [cursor=pointer]
+                  - button "Share Trinity Tours & Travel Agency's post" [ref=f18e676] [cursor=pointer]
+                - generic [ref=f18e687]:
+                  - button "Switch to a different profile or Page" [ref=f18e689] [cursor=pointer]
+                  - generic [ref=f18e703]:
+                    - generic [ref=f18e707]:
+                      - textbox "Comment as Maira Naeem" [ref=f18e708]:
+                        - paragraph [ref=f18e709]
+                      - generic: Comment as Maira Naeem
+                    - list [ref=f18e711]:
+                      - listitem [ref=f18e712]:
+                        - button "Comment with an avatar sticker" [ref=f18e714] [cursor=pointer]
+                      - listitem [ref=f18e716]:
+                        - button "Insert an emoji" [ref=f18e718] [cursor=pointer]
+                      - listitem [ref=f18e722]:
+                        - button "Attach a photo or video" [ref=f18e724] [cursor=pointer]
+                      - listitem [ref=f18e726]:
+                        - button "Comment with a GIF" [ref=f18e728] [cursor=pointer]
+                      - listitem [ref=f18e730]:
+                        - button "Comment with a sticker" [ref=f18e732] [cursor=pointer]
+            - blockquote [ref=f18e735]:
+              - generic [ref=f18e736]: Facebook
+            - blockquote [ref=f18e738]:
+              - generic [ref=f18e739]: Facebook
+            - blockquote [ref=f18e741]:
+              - generic [ref=f18e742]: Facebook
+            - blockquote [ref=f18e744]:
+              - generic [ref=f18e745]: Facebook
+            - blockquote [ref=f18e747]:
+              - generic [ref=f18e748]: Facebook
+            - blockquote [ref=f18e750]:
+              - generic [ref=f18e751]: Facebook
+            - blockquote [ref=f18e753]:
+              - generic [ref=f18e754]: Facebook
+            - blockquote [ref=f18e756]:
+              - generic [ref=f18e757]: Facebook
+            - blockquote [ref=f18e759]:
+              - generic [ref=f18e760]: Facebook
+            - blockquote [ref=f18e762]:
+              - generic [ref=f18e763]: Facebook
+            - blockquote [ref=f18e765]:
+              - generic [ref=f18e766]: Facebook
+          - generic [ref=f18e768]:
+            - article [ref=f18e769]:
+              - status "Loading..." [ref=f18e770]
+            - article [ref=f18e783]:
+              - status "Loading..." [ref=f18e784]

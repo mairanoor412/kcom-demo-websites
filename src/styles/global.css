@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+/* ===== Custom Fonts ===== */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfAZ9hiJ-Ek-_EeA.woff2') format('woff2');
+}
+
+/* ===== CSS Variables ===== */
+:root {
+  --font-primary: 'Inter', system-ui, sans-serif;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* ===== Base Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto; /* Lenis handles smooth scroll */
+}
+
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--font-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* ===== Scroll Animation Utilities ===== */
+[data-animate] {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+[data-animate="fade-up"] {
+  opacity: 0;
+  transform: translateY(60px);
+}
+
+[data-animate="fade-left"] {
+  opacity: 0;
+  transform: translateX(-60px);
+}
+
+[data-animate="fade-right"] {
+  opacity: 0;
+  transform: translateX(60px);
+}
+
+[data-animate="scale-up"] {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+/* ===== Scroll Progress Bar ===== */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: transparent;
+  z-index: 9999;
+}
+
+.scroll-progress-bar {
+  height: 100%;
+  width: 0%;
+  transform-origin: left;
+}
+
+/* ===== Selection ===== */
+::selection {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Swiper Custom ===== */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+/* ===== Image Utilities ===== */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

@@ -1,0 +1,107 @@
+{
+  "name": "JamZone Limited",
+  "slug": "jamzone",
+  "tagline": "Bank Repossessed Vehicles at Unbeatable Prices",
+  "description": "Jamaica's trusted source for bank repossessed vehicles. Quality cars at incredible prices on Hagley Park Road, Kingston.",
+  "type": "car-dealer",
+  "region": "Jamaica",
+  "phone": "876-345-1032",
+  "phone2": "876-459-9227",
+  "email": "Jamzone.ltd@gmail.com",
+  "whatsapp": "8763451032",
+  "address": "78B Hagley Park Road, Jamaica",
+  "contactPerson": "",
+  "facebook": "",
+  "instagram": "https://www.instagram.com/jamzone_ltd",
+  "colors": {
+    "primary": "#16A34A",
+    "primaryDark": "#15803D",
+    "secondary": "#0F172A",
+    "accent": "#EAB308",
+    "light": "#F0FDF4"
+  },
+  "about": {
+    "title": "About JamZone Limited",
+    "text": "JamZone Limited specializes in bank repossessed vehicles, offering Jamaicans the opportunity to own quality cars at significantly reduced prices. Located at 78B Hagley Park Road, we regularly receive new inventory from major banks and financial institutions. Every vehicle is inspected and ready for the road. Don't miss out on incredible deals — visit JamZone today!",
+    "experience": "7+",
+    "vehicles_sold": "600",
+    "happy_clients": "550",
+    "rating": "4.7"
+  },
+  "featuredVehicles": [
+    {
+      "name": "Honda HRV",
+      "year": "2021",
+      "price": "Call for Price",
+      "type": "SUV",
+      "highlights": ["Crossover", "Low Mileage", "Modern Design", "Fuel Efficient"]
+    },
+    {
+      "name": "Toyota RAV4",
+      "year": "2019",
+      "price": "Call for Price",
+      "type": "SUV",
+      "highlights": ["Hybrid Available", "Safety Suite", "Spacious", "Reliable"]
+    },
+    {
+      "name": "Nissan Juke",
+      "year": "2020",
+      "price": "Call for Price",
+      "type": "Crossover",
+      "highlights": ["Turbo", "Unique Style", "ProPilot", "Compact SUV"]
+    },
+    {
+      "name": "Honda Civic",
+      "year": "2019",
+      "price": "Call for Price",
+      "type": "Sedan",
+      "highlights": ["Turbo", "Sport Design", "Honda Sensing", "Great Value"]
+    },
+    {
+      "name": "Toyota Corolla",
+      "year": "2020",
+      "price": "Call for Price",
+      "type": "Sedan",
+      "highlights": ["Hybrid", "Safety Sense", "Comfortable", "Low Running Cost"]
+    },
+    {
+      "name": "Mazda CX-5",
+      "year": "2018",
+      "price": "Call for Price",
+      "type": "SUV",
+      "highlights": ["SkyActiv", "Premium Feel", "AWD Option", "i-Activsense"]
+    }
+  ],
+  "services": [
+    { "title": "Bank Repo Sales", "description": "Quality bank repossessed vehicles at significantly reduced prices", "icon": "truck" },
+    { "title": "Vehicle Inspection", "description": "Every vehicle thoroughly inspected and road-ready before sale", "icon": "clipboard" },
+    { "title": "Financing Options", "description": "Flexible payment plans and financing assistance available", "icon": "dollar" },
+    { "title": "New Arrivals", "description": "Regular new inventory from banks and financial institutions", "icon": "headset" }
+  ],
+  "testimonials": [
+    {
+      "name": "Rasheed Palmer",
+      "location": "Kingston, Jamaica",
+      "text": "Got an incredible deal on a 2021 Honda HRV from JamZone. Bank repo prices are no joke — saved thousands compared to regular dealers. The car was in perfect condition!",
+      "rating": 5
+    },
+    {
+      "name": "Nicole Stewart",
+      "location": "Mandeville, Jamaica",
+      "text": "JamZone is a game-changer for car buying in Jamaica. I picked up a Toyota RAV4 at a price I couldn't believe. Definitely recommend checking their inventory regularly.",
+      "rating": 5
+    },
+    {
+      "name": "Devon Campbell",
+      "location": "May Pen, Jamaica",
+      "text": "Best prices on quality vehicles in Kingston. The Mazda CX-5 I bought from JamZone was well maintained and the paperwork was straightforward. Will be back!",
+      "rating": 4
+    }
+  ],
+  "usps": [
+    { "title": "Unbeatable Prices", "description": "Bank repossessed vehicles at significantly below market value", "icon": "dollar" },
+    { "title": "Quality Assured", "description": "Every vehicle inspected and certified road-ready", "icon": "shield" },
+    { "title": "Fresh Inventory", "description": "New vehicles arriving regularly from major banks", "icon": "truck" },
+    { "title": "Easy Process", "description": "Straightforward paperwork and flexible payment options", "icon": "clipboard" }
+  ]
+}

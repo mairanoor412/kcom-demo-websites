@@ -1,0 +1,108 @@
+{
+  "name": "Kibbo's Auto Center & Entertainment",
+  "slug": "kibbos-auto",
+  "tagline": "Your One-Stop Auto Center in Jamaica",
+  "description": "Quality automotive sales, services, and entertainment in McCooks Pen, St. Catherine. Your trusted local auto center.",
+  "type": "car-dealer",
+  "region": "Jamaica",
+  "phone": "876-547-3707",
+  "phone2": "",
+  "email": "kimkamtrading@gmail.com",
+  "whatsapp": "8765473707",
+  "address": "McCooks Pen, Saint Catherine Parish, Jamaica",
+  "contactPerson": "",
+  "facebook": "https://www.facebook.com/p/Kibbos-Auto-Center-and-Entertainment-100078576467525/",
+  "instagram": "",
+  "heroImage": "/images/kibbos-auto/photo-2.jpg",
+  "colors": {
+    "primary": "#DC2626",
+    "primaryDark": "#B91C1C",
+    "secondary": "#1A1A2E",
+    "accent": "#FFDD00",
+    "light": "#FEF2F2"
+  },
+  "about": {
+    "title": "About Kibbo's Auto Center",
+    "text": "Kibbo's Auto Center & Entertainment is St. Catherine's trusted destination for quality pre-owned vehicles and automotive services. Located in McCooks Pen, we offer a wide selection of cars, trucks, and SUVs at competitive prices. Beyond the auto center, we also bring you entertainment — making us a true community hub. Visit us today and drive away happy!",
+    "experience": "8+",
+    "vehicles_sold": "350",
+    "happy_clients": "300",
+    "rating": "4.7"
+  },
+  "featuredVehicles": [
+    {
+      "name": "Toyota Fielder",
+      "year": "2019",
+      "price": "Call for Price",
+      "type": "Wagon",
+      "highlights": ["Fuel Efficient", "Spacious", "Reliable", "Low Mileage"]
+    },
+    {
+      "name": "Honda Fit",
+      "year": "2018",
+      "price": "Call for Price",
+      "type": "Hatchback",
+      "highlights": ["Magic Seats", "Great MPG", "Compact", "Versatile"]
+    },
+    {
+      "name": "Nissan AD Wagon",
+      "year": "2019",
+      "price": "Call for Price",
+      "type": "Wagon",
+      "highlights": ["Commercial Ready", "Durable", "Economic", "Spacious Cargo"]
+    },
+    {
+      "name": "Toyota Axio",
+      "year": "2020",
+      "price": "Call for Price",
+      "type": "Sedan",
+      "highlights": ["Hybrid Option", "Comfortable", "Reliable", "Modern Features"]
+    },
+    {
+      "name": "Suzuki Swift",
+      "year": "2018",
+      "price": "Call for Price",
+      "type": "Hatchback",
+      "highlights": ["Sport Design", "Turbo Available", "Fun to Drive", "Low Cost"]
+    },
+    {
+      "name": "Toyota Vitz",
+      "year": "2017",
+      "price": "Call for Price",
+      "type": "Hatchback",
+      "highlights": ["Economical", "Easy to Park", "Reliable", "Perfect First Car"]
+    }
+  ],
+  "services": [
+    { "title": "Vehicle Sales", "description": "Wide selection of quality pre-owned vehicles at competitive prices", "icon": "truck" },
+    { "title": "Auto Servicing", "description": "Professional automotive maintenance and repair services", "icon": "clipboard" },
+    { "title": "Parts & Accessories", "description": "Genuine and aftermarket parts for all major brands", "icon": "dollar" },
+    { "title": "Entertainment", "description": "Community events and entertainment alongside our auto services", "icon": "headset" }
+  ],
+  "testimonials": [
+    {
+      "name": "Damian Clarke",
+      "location": "Spanish Town, Jamaica",
+      "text": "Bought my Toyota Fielder from Kibbo's and it's been running perfectly. Good prices and honest people. The go-to spot in St. Catherine for used cars!",
+      "rating": 5
+    },
+    {
+      "name": "Tanesha Gordon",
+      "location": "Portmore, Jamaica",
+      "text": "Great experience at Kibbo's Auto Center. Found a lovely Honda Fit at a great price. The staff was helpful and the whole process was smooth.",
+      "rating": 5
+    },
+    {
+      "name": "Wayne Richards",
+      "location": "Old Harbour, Jamaica",
+      "text": "Kibbo's is more than just a car lot — it's a community spot. Got my Suzuki Swift there and I love it. The entertainment events are a bonus too!",
+      "rating": 4
+    }
+  ],
+  "usps": [
+    { "title": "Local Trusted", "description": "St. Catherine's go-to auto center for years", "icon": "shield" },
+    { "title": "Great Prices", "description": "Competitive pricing on all vehicles — best deals guaranteed", "icon": "dollar" },
+    { "title": "Full Service", "description": "Sales, servicing, and parts all under one roof", "icon": "clipboard" },
+    { "title": "Community Hub", "description": "More than a dealership — entertainment and community events", "icon": "headset" }
+  ]
+}

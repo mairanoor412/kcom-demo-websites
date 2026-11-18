@@ -1,0 +1,131 @@
+---
+import Navbar from "../components/common/Navbar.astro";
+import Hero from "../components/common/Hero.astro";
+import About from "../components/tour/About.astro";
+import TourPackages from "../components/tour/TourPackages.astro";
+import Gallery from "../components/tour/Gallery.astro";
+import Testimonials from "../components/tour/Testimonials.astro";
+import WhyChooseUs from "../components/tour/WhyChooseUs.astro";
+import Contact from "../components/common/Contact.astro";
+import Footer from "../components/common/Footer.astro";
+
+interface Props {
+  data: any;
+}
+
+const { data } = Astro.props;
+const { colors } = data;
+
+// Hero images for tour companies (rotate through stock photos)
+const tourHeroImages = [
+  "/images/stock/tours/hero-1.jpg",
+  "/images/stock/tours/hero-2.jpg",
+  "/images/stock/tours/hero-3.jpg",
+];
+// Pick hero image based on business name hash
+const heroIdx = data.name.length % tourHeroImages.length;
+const heroImage = data.heroImage || tourHeroImages[heroIdx];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={`${data.name} — ${data.tagline}. ${data.description}`} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{data.name} — {data.tagline}</title>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style define:vars={{ primary: colors.primary, primaryDark: colors.primaryDark, secondary: colors.secondary, accent: colors.accent, light: colors.light }}>
+      ::selection {
+        background: var(--primary);
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body class="bg-white text-gray-900 overflow-x-hidden">
+    <Navbar
+      name={data.name}
+      primaryColor={colors.primary}
+      phone={data.phone}
+    />
+
+    <Hero
+      name={data.name}
+      tagline={data.tagline}
+      primaryColor={colors.primary}
+      phone={data.phone}
+      heroImage={heroImage}
+    />
+
+    <About
+      about={data.about}
+      primaryColor={colors.primary}
+    />
+
+    <TourPackages
+      packages={data.packages}
+      primaryColor={colors.primary}
+      phone={data.whatsapp}
+    />
+
+    <Gallery
+      gallery={data.gallery}
+      primaryColor={colors.primary}
+      name={data.name}
+    />
+
+    <Testimonials
+      testimonials={data.testimonials}
+      primaryColor={colors.primary}
+    />
+
+    <WhyChooseUs
+      usps={data.usps}
+      primaryColor={colors.primary}
+    />
+
+    <Contact
+      name={data.name}
+      phone={data.phone}
+      email={data.email}
+      whatsapp={data.whatsapp}
+      address={data.address}
+      primaryColor={colors.primary}
+      facebook={data.facebook}
+      instagram={data.instagram}
+    />
+
+    <Footer
+      name={data.name}
+      primaryColor={colors.primary}
+      phone={data.phone}
+      email={data.email}
+      address={data.address}
+    />
+
+    <!-- GSAP + Lenis + Animations -->
+    <script>
+      import { initSmoothScroll } from "../scripts/lenis-smooth-scroll.js";
+      import { initAllAnimations } from "../scripts/gsap-animations.js";
+
+      // Initialize immediately — Astro scripts are modules (deferred), so DOM is already ready
+      initSmoothScroll();
+
+      const primaryColor = getComputedStyle(document.documentElement)
+        .getPropertyValue("--primary")
+        .trim() || "#0EA5E9";
+
+      initAllAnimations({ primaryColor });
+    </script>
+
+    <!-- Import global styles -->
+    <style>
+      @import "../styles/global.css";
+    </style>
+  </body>
+</html>

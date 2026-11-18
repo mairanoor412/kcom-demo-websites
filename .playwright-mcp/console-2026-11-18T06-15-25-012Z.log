@@ -1,0 +1,62 @@
+[    3184ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :1
+[    3184ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'. @ :1
+[    3184ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'. @ :1
+[    5167ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.facebook.com/:1
+[    7096ms] [LOG] 
+%cStop! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black; @ https://static.xx.fbcdn.net/rsrc.php/v4/yr/r/gUQZ9U7nxJ2.js:254
+[    7096ms] [LOG] 
+%cThis is a browser feature intended for developers. If someone told you to copy and paste something here to enable a Facebook feature or "hack" someone's account, it's a scam and will give them access to your Facebook account. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4/yr/r/gUQZ9U7nxJ2.js:254
+[    7096ms] [LOG] 
+%cSee https://www.facebook.com/selfxss for more information. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4/yr/r/gUQZ9U7nxJ2.js:254
+[    7097ms] [LOG] 
+%c  @ https://static.xx.fbcdn.net/rsrc.php/v4/yr/r/gUQZ9U7nxJ2.js:254
+[    7874ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://static.xx.fbcdn.net/rsrc.php/v4/yj/r/atBZ6RzieZ4.js:60
+[    8039ms] [WARNING] [.WebGL-0x723c00408e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://www.facebook.com/:1
+[    8118ms] [WARNING] No available adapters. @ https://www.facebook.com/:1
+[  529831ms] [ERROR] ErrorUtils caught an error:
+
+Missing cryptedUid for successful web login
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 17844, clientTime: 1794983054, extra: Object, guardList: Array(1), hash: z0apc5} @ https://static.xx.fbcdn.net/rsrc.php/v4/yr/r/gUQZ9U7nxJ2.js:85
+[  530463ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :1
+[  530464ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'. @ :1
+[  530464ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'. @ :1
+[  535719ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :1
+[  535720ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'. @ :1
+[  535721ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'. @ :1
+[  537035ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :1
+[  537035ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'. @ :1
+[  537035ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'. @ :1
+[  538313ms] [ERROR] Permissions policy violation: unload is not allowed in this document. @ https://static.xx.fbcdn.net/rsrc.php/v4/yt/r/xQR0uQqdeFf.js:324
+[  539786ms] [ERROR] ErrorUtils caught an error:
+
+terminate stream because StartStreamFailure with msg : UNAUTHENTICATED [Caught in: Subscription error in preprocessResponse]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1794983064, extra: Object, guardList: Array(0), hash: t412ew} @ https://static.xx.fbcdn.net/rsrc.php/v4/yr/r/gUQZ9U7nxJ2.js:85
+[  540100ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://static.xx.fbcdn.net/rsrc.php/v4iBXn4/yR/l/en_GB-j/6VCRa5BIwHVKM4WBpDS82GLJDh7Yk7qtmS_roWWwOzzQfmGXTr_mtZpUMWB9hBCgFBppelIBFFfmCteBoAu7g6w_il0js5F1MZUFzhqS-EWeP2VZaKTTXWzeaAKMunGE_hfwCnntURJaQcNyx7Kd_cR1wG1DUfbHqd1Q5AhHMDVntAk6hPe6KRK6dusRn36C0MPgx5Myfh_WEOuoig4gQyhhCxuiWEh7kE0yOB1Z3yTexitbgUiRMIgjKR_sdkeiPrWLrYPjgHJ6nqId9PQLBih-A1HmgZfQagRRCzLs3adNPQ5sUPANwLOTL_Zo2RVatBZ6RzieZ4.js:3498
+[  540232ms] [WARNING] [.WebGL-0x723c0040b800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://www.facebook.com/two_step_verification/authentication/?encrypted_context=AWTsNRY0xbfAwrjg0gLpcXk3IcilWeQZRd1L3ItOgwkgzF6QOoStjs3xapZDHLkdxqf75MNYz3HirItv178qCeytUwbXkwzMd5G1ZexOFsnoR6wItifhA3Od2rRK3GfUITbjAdYBeL08V8-vECjdegQxvIInGZQo-DMWrT9qzWDe7hVhNc2O28_rJUomx_u1ESGBCkZeaZOGAs30X1-TWqnfid9IjewagNfeLzkSm3VTGNIspe2_cnp_fm-L4G09N0qgWYQL1gUubthXvt2AU95gEKYaEcOcaFkxjfXtsWcZqgLFY3ypblHXbdJq6rue-8V9Jx7Nxyf6JclM2zdelEYt3cQNdZg4_LW6WoqHWJRdGKw22Vrkjug310Nnip02Qq_5MQxiHYJ-1kSab48an_MBVCF-rQ3X9oFo2ij0nLyiZnaUE2KyX0B6jYSgxBWYXZLKWw1VQlUUMcz2d62IjH7Vi7vAQJY6u1hy18_AVw1g1eDfpFD0dtOBiDwwufiYV3Y7zgHPNwGqXAh74K04UHUihbHCh6ehvZZJihqD26eDAo_1-Mf7t0HZPBxXwhmhNJXkMfiKuBv9ANItornxbVYsOgYiiXavhguvLjMEW6AbpjXcwoaubF2cnnpPx97QQ-F_Lat8fgT2SqwWFHC4AfRbpphK9OS7lf4w-hRbrCUnvGfRx_IHzjzIayTl44Ns9ZPrSlJCQkTVdkF9mAvBjN6rgcGmhYQKjG41CG5rYLdaGaaNuyhU1k1xLZA0yxumscLdyuS6O1XpqNDV0BtMTjxPlpCkZ6kD6GLCPpQly_Dpgcz0ENu45dFCJlIgmSxVSYxmetwBJ0KSFKfU03FZvYt2QCaKqxvvcdPETZBUhooh1YN4-lCqIZdPrMyZSNynw3yrU5H84SZ1Hpt6grIjnA3ngP9t5Ug-O9JiYnb8cGefZrJ2sPXcTAfH8czplfkOGrvfDGvYxLmGsEBigpTLnDraJ8QecoFp2ilKxsqxALJomKmpzln4HltGbWIZWZpT8NF4Kn4uqgewFAIxuZ-isqScwhS4JtQhuo8Qh-uEs-IdseijrG8yTrezxrqJEYa_1O1zj3nAJpoi4ZNsQK4WHlkhsZxVgNJjiQK1gPHUfXpJgW5FY2tbo6TgHu5liKivlloesHeJOSUFp4lsgjr2YNqkM6Qed-7ND3K7RHKyfdKNDFRW-QTo6p_MpWRL7ydqzKa1WP1Jiphh0oyIxezzWxXckfTOKDvXqUOX5OK1c9Z2qyhCnbuitCF8nx6CCrNia1asI_kscCn2kZxqIxrySiJc4zX8me2h4onV-TCuZa0pHhvtPdgE_lLZQWIiNemvC2X13wPbd17BpoCOAPhkEUh8Vufg-6P_mBa6U4CdRtlcKVmVBknjkLcNgOZgNzCrrOruvursSj59BwmJgxwuBxGKcEvYCaR4q1ZWvTcAUUWu10ZHUHFbWs5sc5r1FgY39K9ItBKDFDxjwKgJHx_8pS3HTnX4ElXmcS8Laqd9Lse3jlDjAn6GQwUx9FMCEKnzx26cC1YbC9eRNoRnX3VxX_ZddtuVc9JKvucaQmPcPAiR8-V_ZuyrquahcEKFl1uaMxYk5xR4rTC-oL66r3-4Oxf3574OKI78q8b4kKJV8Dn6uR7M&flow=pre_authentication&next:1
+[  540238ms] [LOG] 
+%cStop! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black; @ https://static.xx.fbcdn.net/rsrc.php/v4/yr/r/gUQZ9U7nxJ2.js:254
+[  540239ms] [LOG] 
+%cThis is a browser feature intended for developers. If someone told you to copy and paste something here to enable a Facebook feature or "hack" someone's account, it's a scam and will give them access to your Facebook account. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4/yr/r/gUQZ9U7nxJ2.js:254
+[  540240ms] [LOG] 
+%cSee https://www.facebook.com/selfxss for more information. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4/yr/r/gUQZ9U7nxJ2.js:254
+[  540241ms] [LOG] 
+%c  @ https://static.xx.fbcdn.net/rsrc.php/v4/yr/r/gUQZ9U7nxJ2.js:254
+[  540310ms] [WARNING] No available adapters. @ https://www.facebook.com/two_step_verification/authentication/?encrypted_context=AWTsNRY0xbfAwrjg0gLpcXk3IcilWeQZRd1L3ItOgwkgzF6QOoStjs3xapZDHLkdxqf75MNYz3HirItv178qCeytUwbXkwzMd5G1ZexOFsnoR6wItifhA3Od2rRK3GfUITbjAdYBeL08V8-vECjdegQxvIInGZQo-DMWrT9qzWDe7hVhNc2O28_rJUomx_u1ESGBCkZeaZOGAs30X1-TWqnfid9IjewagNfeLzkSm3VTGNIspe2_cnp_fm-L4G09N0qgWYQL1gUubthXvt2AU95gEKYaEcOcaFkxjfXtsWcZqgLFY3ypblHXbdJq6rue-8V9Jx7Nxyf6JclM2zdelEYt3cQNdZg4_LW6WoqHWJRdGKw22Vrkjug310Nnip02Qq_5MQxiHYJ-1kSab48an_MBVCF-rQ3X9oFo2ij0nLyiZnaUE2KyX0B6jYSgxBWYXZLKWw1VQlUUMcz2d62IjH7Vi7vAQJY6u1hy18_AVw1g1eDfpFD0dtOBiDwwufiYV3Y7zgHPNwGqXAh74K04UHUihbHCh6ehvZZJihqD26eDAo_1-Mf7t0HZPBxXwhmhNJXkMfiKuBv9ANItornxbVYsOgYiiXavhguvLjMEW6AbpjXcwoaubF2cnnpPx97QQ-F_Lat8fgT2SqwWFHC4AfRbpphK9OS7lf4w-hRbrCUnvGfRx_IHzjzIayTl44Ns9ZPrSlJCQkTVdkF9mAvBjN6rgcGmhYQKjG41CG5rYLdaGaaNuyhU1k1xLZA0yxumscLdyuS6O1XpqNDV0BtMTjxPlpCkZ6kD6GLCPpQly_Dpgcz0ENu45dFCJlIgmSxVSYxmetwBJ0KSFKfU03FZvYt2QCaKqxvvcdPETZBUhooh1YN4-lCqIZdPrMyZSNynw3yrU5H84SZ1Hpt6grIjnA3ngP9t5Ug-O9JiYnb8cGefZrJ2sPXcTAfH8czplfkOGrvfDGvYxLmGsEBigpTLnDraJ8QecoFp2ilKxsqxALJomKmpzln4HltGbWIZWZpT8NF4Kn4uqgewFAIxuZ-isqScwhS4JtQhuo8Qh-uEs-IdseijrG8yTrezxrqJEYa_1O1zj3nAJpoi4ZNsQK4WHlkhsZxVgNJjiQK1gPHUfXpJgW5FY2tbo6TgHu5liKivlloesHeJOSUFp4lsgjr2YNqkM6Qed-7ND3K7RHKyfdKNDFRW-QTo6p_MpWRL7ydqzKa1WP1Jiphh0oyIxezzWxXckfTOKDvXqUOX5OK1c9Z2qyhCnbuitCF8nx6CCrNia1asI_kscCn2kZxqIxrySiJc4zX8me2h4onV-TCuZa0pHhvtPdgE_lLZQWIiNemvC2X13wPbd17BpoCOAPhkEUh8Vufg-6P_mBa6U4CdRtlcKVmVBknjkLcNgOZgNzCrrOruvursSj59BwmJgxwuBxGKcEvYCaR4q1ZWvTcAUUWu10ZHUHFbWs5sc5r1FgY39K9ItBKDFDxjwKgJHx_8pS3HTnX4ElXmcS8Laqd9Lse3jlDjAn6GQwUx9FMCEKnzx26cC1YbC9eRNoRnX3VxX_ZddtuVc9JKvucaQmPcPAiR8-V_ZuyrquahcEKFl1uaMxYk5xR4rTC-oL66r3-4Oxf3574OKI78q8b4kKJV8Dn6uR7M&flow=pre_authentication&next:1
+[  568120ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :1
+[  568121ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'. @ :1
+[  568122ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'. @ :1
+[  584703ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :1
+[  584703ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'shared-storage'. @ :1
+[  584703ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'. @ :1
+[  586705ms] [ERROR] Permissions policy violation: unload is not allowed in this document. @ https://static.xx.fbcdn.net/rsrc.php/v4/yt/r/xQR0uQqdeFf.js:324
+[  591915ms] [LOG] 
+%cStop! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black; @ https://static.xx.fbcdn.net/rsrc.php/v4iHmj4/y6/l/en_US-j/yoj0x_FhbCSGA_hpSq3lOxXF2bhKr3XyNwE8UiUfLQEfdzdp7_yRGd642dUzFd8Tc9fKjkCb_Znl_2r9aZJ-fu96W39NlyimSHHtJj-6l0KxZ3iV0rCbL00mGT3BWwPDFy2QtjdrvikG6F8W-_EZY1-mRdHvc9TG9qiBxEFvmPX5m6Yp-rr6b6vp2T95_12VGh-Vs4jqt_zbEIg8r2xasrQnpcCqlGuHMVX62t13aVax2XA2wXA_T9ow4KWj3v8MVbKR4sX5GECHnZZ8WzM0-M5q5dLxY4_LXw_9SJkKPtwk-4Jolwpe.js?_nc_eui2=AeF69D5HRN2T7umffKvSNHGH9NXmTDNx3Mz01eZMM3HczKJCeBilsVNaH_WLct4law050dgIWV5ulepMvgbRjsCR:1086
+[  591916ms] [LOG] 
+%cThis is a browser feature intended for developers. If someone told you to copy-paste something here to enable a Facebook feature or "hack" someone's account, it's a scam and will give them access to your Facebook account. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4iHmj4/y6/l/en_US-j/yoj0x_FhbCSGA_hpSq3lOxXF2bhKr3XyNwE8UiUfLQEfdzdp7_yRGd642dUzFd8Tc9fKjkCb_Znl_2r9aZJ-fu96W39NlyimSHHtJj-6l0KxZ3iV0rCbL00mGT3BWwPDFy2QtjdrvikG6F8W-_EZY1-mRdHvc9TG9qiBxEFvmPX5m6Yp-rr6b6vp2T95_12VGh-Vs4jqt_zbEIg8r2xasrQnpcCqlGuHMVX62t13aVax2XA2wXA_T9ow4KWj3v8MVbKR4sX5GECHnZZ8WzM0-M5q5dLxY4_LXw_9SJkKPtwk-4Jolwpe.js?_nc_eui2=AeF69D5HRN2T7umffKvSNHGH9NXmTDNx3Mz01eZMM3HczKJCeBilsVNaH_WLct4law050dgIWV5ulepMvgbRjsCR:1086
+[  591918ms] [LOG] 
+%cSee https://www.facebook.com/selfxss for more information. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4iHmj4/y6/l/en_US-j/yoj0x_FhbCSGA_hpSq3lOxXF2bhKr3XyNwE8UiUfLQEfdzdp7_yRGd642dUzFd8Tc9fKjkCb_Znl_2r9aZJ-fu96W39NlyimSHHtJj-6l0KxZ3iV0rCbL00mGT3BWwPDFy2QtjdrvikG6F8W-_EZY1-mRdHvc9TG9qiBxEFvmPX5m6Yp-rr6b6vp2T95_12VGh-Vs4jqt_zbEIg8r2xasrQnpcCqlGuHMVX62t13aVax2XA2wXA_T9ow4KWj3v8MVbKR4sX5GECHnZZ8WzM0-M5q5dLxY4_LXw_9SJkKPtwk-4Jolwpe.js?_nc_eui2=AeF69D5HRN2T7umffKvSNHGH9NXmTDNx3Mz01eZMM3HczKJCeBilsVNaH_WLct4law050dgIWV5ulepMvgbRjsCR:1086
+[  591932ms] [LOG] 
+%c  @ https://static.xx.fbcdn.net/rsrc.php/v4iHmj4/y6/l/en_US-j/yoj0x_FhbCSGA_hpSq3lOxXF2bhKr3XyNwE8UiUfLQEfdzdp7_yRGd642dUzFd8Tc9fKjkCb_Znl_2r9aZJ-fu96W39NlyimSHHtJj-6l0KxZ3iV0rCbL00mGT3BWwPDFy2QtjdrvikG6F8W-_EZY1-mRdHvc9TG9qiBxEFvmPX5m6Yp-rr6b6vp2T95_12VGh-Vs4jqt_zbEIg8r2xasrQnpcCqlGuHMVX62t13aVax2XA2wXA_T9ow4KWj3v8MVbKR4sX5GECHnZZ8WzM0-M5q5dLxY4_LXw_9SJkKPtwk-4Jolwpe.js?_nc_eui2=AeF69D5HRN2T7umffKvSNHGH9NXmTDNx3Mz01eZMM3HczKJCeBilsVNaH_WLct4law050dgIWV5ulepMvgbRjsCR:1086
+[  592156ms] [WARNING] No available adapters. @ https://www.facebook.com/:1

@@ -1,0 +1,107 @@
+{
+  "name": "SuperCoup's Ideal Auto Imports",
+  "slug": "supercoup-auto",
+  "tagline": "Quality Imported Vehicles at Unbeatable Prices",
+  "description": "Jamaica's trusted used car dealer specializing in importing quality pre-owned vehicles. Find your perfect ride with SuperCoup's.",
+  "type": "car-dealer",
+  "region": "Jamaica",
+  "phone": "876-584-3670",
+  "phone2": "876-534-1009",
+  "email": "",
+  "whatsapp": "8765843670",
+  "address": "Jamaica",
+  "contactPerson": "M. Cooper",
+  "facebook": "",
+  "instagram": "https://www.instagram.com/sci_autoimports",
+  "colors": {
+    "primary": "#DC2626",
+    "primaryDark": "#B91C1C",
+    "secondary": "#0F172A",
+    "accent": "#FFDD00",
+    "light": "#FEF2F2"
+  },
+  "about": {
+    "title": "About SuperCoup's Auto",
+    "text": "SuperCoup's Ideal Auto Imports is Jamaica's go-to destination for quality pre-owned vehicles. We specialize in importing reliable, well-maintained cars from trusted international markets. Whether you're looking for a sporty Audi, a dependable Toyota, or a luxurious Mercedes-Benz — we have the right vehicle at the right price. Contact M. Cooper today to find your dream car.",
+    "experience": "10+",
+    "vehicles_sold": "500",
+    "happy_clients": "450",
+    "rating": "4.8"
+  },
+  "featuredVehicles": [
+    {
+      "name": "Mercedes-Benz CLA AMG",
+      "year": "2019",
+      "price": "Call for Price",
+      "type": "Sedan",
+      "highlights": ["AMG Package", "Turbo Engine", "Leather Interior", "Low Mileage"]
+    },
+    {
+      "name": "Audi TT Convertible",
+      "year": "2018",
+      "price": "Call for Price",
+      "type": "Convertible",
+      "highlights": ["Turbocharged", "Quattro AWD", "Sport Package", "Premium Sound"]
+    },
+    {
+      "name": "Subaru Impreza Sports",
+      "year": "2020",
+      "price": "Call for Price",
+      "type": "Hatchback",
+      "highlights": ["AWD", "EyeSight Safety", "Apple CarPlay", "Fuel Efficient"]
+    },
+    {
+      "name": "Toyota Voxy",
+      "year": "2019",
+      "price": "Call for Price",
+      "type": "Minivan",
+      "highlights": ["7 Seater", "Hybrid Available", "Sliding Doors", "Spacious"]
+    },
+    {
+      "name": "Audi S4",
+      "year": "2018",
+      "price": "Call for Price",
+      "type": "Sedan",
+      "highlights": ["354 HP V6", "Quattro AWD", "Sport Exhaust", "Virtual Cockpit"]
+    },
+    {
+      "name": "Nissan Teana",
+      "year": "2017",
+      "price": "Call for Price",
+      "type": "Sedan",
+      "highlights": ["V6 Engine", "Leather Seats", "Sunroof", "Keyless Entry"]
+    }
+  ],
+  "services": [
+    { "title": "Vehicle Import", "description": "Direct importing of quality pre-owned vehicles from international markets", "icon": "truck" },
+    { "title": "Financing Assistance", "description": "We help you find the best financing options for your budget", "icon": "dollar" },
+    { "title": "Vehicle Inspection", "description": "Every vehicle thoroughly inspected before sale for your peace of mind", "icon": "clipboard" },
+    { "title": "After-Sale Support", "description": "Continued support and guidance even after your purchase", "icon": "headset" }
+  ],
+  "testimonials": [
+    {
+      "name": "Kevin Brown",
+      "location": "Kingston, Jamaica",
+      "text": "Bought my Audi TT from SuperCoup's and couldn't be happier. The car was exactly as described, great condition, and the price was very fair. Mr. Cooper is a straight dealer!",
+      "rating": 5
+    },
+    {
+      "name": "Shanice Williams",
+      "location": "Montego Bay, Jamaica",
+      "text": "Excellent experience buying my Toyota Voxy. Perfect family car and the whole process was smooth and transparent. Will definitely be coming back for my next vehicle.",
+      "rating": 5
+    },
+    {
+      "name": "Marcus Thompson",
+      "location": "Spanish Town, Jamaica",
+      "text": "SuperCoup's has the best selection of imported cars in Jamaica. Got my Subaru Impreza and it drives like a dream. Highly recommended for quality used vehicles!",
+      "rating": 5
+    }
+  ],
+  "usps": [
+    { "title": "Quality Imports", "description": "Carefully selected vehicles from trusted international markets", "icon": "truck" },
+    { "title": "Transparent Deals", "description": "No hidden fees — what you see is what you get", "icon": "shield" },
+    { "title": "Wide Selection", "description": "From economy to luxury — we have something for everyone", "icon": "car" },
+    { "title": "Expert Guidance", "description": "Personal consultation to find the perfect vehicle for you", "icon": "headset" }
+  ]
+}

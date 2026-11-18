@@ -22,3 +22,13 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# playwright mcp logs
+.playwright-mcp/
+
+# temp screenshots
+screenshot-*.png
+temp-*.png
+
+# claude settings
+.claude/
